@@ -1,0 +1,162 @@
+1. 2423개 중에서 21개 NotFound 
+2. 구문 후보 목록에서 평균 2.15번의 커서 이동만으로 찾을 수 있음
+3. 커서 이동이 필요 없는 후보 목록의 첫 번째에서 발견된 경우가 972회이다. 
+4. 10개의 구문 후보 목록을 보여주는 현재 환경에서는 튜토리얼에서 작성해야 할 구문의 95.8%가 처음 나타나는 10개의 후보 목록에서 찾을 수 있었다. 
+5. 첫10개에서 발견하지 못하는 경우: 101회
+
+===========
+21개 NotFound
+===========
+320 T for T ( NT declaration NT option_expression T ; NT option_expression T ) NT scoped_statement NotFound
+408 T ( NT declaration NT option_expression T ; NT option_expression T ) NT scoped_statement NotFound
+460 T NAME T TYPE NotFound
+488 T NAME T VARIABLE NotFound
+504 T ; NT option_expression T ) NT scoped_statement NotFound
+516 T ++ NT unary_expression NotFound
+520 T ) NT scoped_statement NotFound
+521 T -- NT unary_expression NotFound
+276 T * NotFound
+186 T float NotFound
+391 T float NotFound
+137 T ( NT save_context NT abstract_declarator T ) NotFound
+320 T for T ( NT declaration NT option_expression T ; NT option_expression T ) NT scoped_statement NotFound
+347 T * NT option_type_qualifier_list NT option_pointer NotFound
+408 T ( NT declaration NT option_expression T ; NT option_expression T ) NT scoped_statement NotFound
+419 T void NotFound
+460 T NAME T TYPE NotFound
+488 T NAME T VARIABLE NotFound
+504 T ; NT option_expression T ) NT scoped_statement NotFound
+516 T ++ NT unary_expression NotFound
+520 T ) NT scoped_statement NotFound
+
+===========
+첫10개에서 발견하지 못하는 경우
+===========
+state syntax found candidates_count 50%
+54 "T volatile" 11 13 7.0
+165 "T -" 16 26 13.0
+165 "T int" 14 26 13.0
+198 "T signed" 12 14 7.0
+198 "T union" 11 14 7.0
+201 "T ++ NT unary_expression" 26 31 16.0
+201 "T char" 15 31 16.0
+201 "T int" 11 31 16.0
+23 "T $" 13 19 10.0
+23 "T float" 17 19 10.0
+198 "T signed" 12 14 7.0
+198 "T union" 11 14 7.0
+201 "T float" 21 31 16.0
+201 "T int" 11 31 16.0
+23 "T $" 13 19 10.0
+165 "T -" 16 26 13.0
+198 "T signed" 12 14 7.0
+198 "T union" 11 14 7.0
+201 "T ++ NT unary_expression" 26 31 16.0
+201 "T char" 15 31 16.0
+201 "T int" 11 31 16.0
+23 "T $" 13 19 10.0
+165 "T -" 16 26 13.0
+198 "T signed" 12 14 7.0
+198 "T union" 11 14 7.0
+23 "T $" 13 19 10.0
+23 "T union" 14 19 10.0
+54 "T volatile" 11 13 7.0
+165 "T -" 16 26 13.0
+165 "T int" 14 26 13.0
+198 "T signed" 12 14 7.0
+198 "T union" 11 14 7.0
+201 "T char" 15 31 16.0
+201 "T int" 11 31 16.0
+8 "T struct" 11 13 7.0
+23 "T $" 13 19 10.0
+23 "T enum NT general_identifier" 18 19 10.0
+23 "T union" 14 19 10.0
+54 "T volatile" 11 13 7.0
+165 "T int" 14 26 13.0
+198 "T signed" 12 14 7.0
+198 "T union" 11 14 7.0
+201 "T ++ NT unary_expression" 26 31 16.0
+201 "T char" 15 31 16.0
+201 "T struct" 14 31 16.0
+23 "T $" 13 19 10.0
+165 "T -" 16 26 13.0
+198 "T signed" 12 14 7.0
+198 "T union" 11 14 7.0
+201 "T char" 15 31 16.0
+201 "T int" 11 31 16.0
+23 "T $" 13 19 10.0
+23 "T union" 14 19 10.0
+54 "T volatile" 11 13 7.0
+165 "T -" 16 26 13.0
+165 "T int" 14 26 13.0
+198 "T signed" 12 14 7.0
+198 "T union" 11 14 7.0
+201 "T char" 15 31 16.0
+201 "T int" 11 31 16.0
+201 "T struct" 14 31 16.0
+276 "T struct" 11 13 7.0
+23 "T $" 13 19 10.0
+23 "T double" 12 19 10.0
+23 "T union" 14 19 10.0
+54 "T double" 12 13 7.0
+54 "T float" 13 13 7.0
+54 "T volatile" 11 13 7.0
+165 "T -" 16 26 13.0
+165 "T int" 14 26 13.0
+198 "T signed" 12 14 7.0
+198 "T union" 11 14 7.0
+201 "T char" 15 31 16.0
+201 "T default T : NT statement" 13 31 16.0
+201 "T double" 17 31 16.0
+201 "T int" 11 31 16.0
+23 "T $" 13 19 10.0
+165 "T -" 16 26 13.0
+198 "T signed" 12 14 7.0
+198 "T union" 11 14 7.0
+23 "T $" 13 19 10.0
+165 "T -" 16 26 13.0
+198 "T signed" 12 14 7.0
+198 "T union" 11 14 7.0
+201 "T ++ NT unary_expression" 26 31 16.0
+201 "T char" 15 31 16.0
+201 "T int" 11 31 16.0
+23 "T $" 13 19 10.0
+23 "T union" 14 19 10.0
+54 "T volatile" 11 13 7.0
+165 "T -" 16 26 13.0
+165 "T int" 14 26 13.0
+165 "T long" 20 26 13.0
+198 "T signed" 12 14 7.0
+198 "T union" 11 14 7.0
+201 "T char" 15 31 16.0
+201 "T int" 11 31 16.0
+201 "T struct" 14 31 16.0
+201 "T void" 25 31 16.0
+276 "T struct" 11 13 7.0
+429 "T ++ NT unary_expression" 13 13 7.0
+
+===========
+스크롤 횟수
+===========
+0     972
+1     496
+2     262
+4     143
+3     135
+5     103
+6      65
+7      48
+8      41
+9      36
+10     30
+11     14
+12     14
+13     14
+15     10
+14      9
+25      4
+16      2
+20      1
+17      1
+19      1
+24      1

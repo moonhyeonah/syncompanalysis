@@ -1,0 +1,92 @@
+state syntax found candidates_count 50%
+165 "T -" 19 29 15.0
+165 "T unsigned" 11 29 15.0
+198 "T signed" 12 17 9.0
+198 "T union" 11 17 9.0
+201 "T ++ NT unary_expression" 20 35 18.0
+201 "T char" 11 35 18.0
+23 "T $" 15 24 12.0
+23 "T float" 22 24 12.0
+198 "T signed" 12 17 9.0
+198 "T union" 11 17 9.0
+201 "T float" 30 35 18.0
+23 "T $" 15 24 12.0
+165 "T -" 19 29 15.0
+198 "T signed" 12 17 9.0
+198 "T union" 11 17 9.0
+201 "T ++ NT unary_expression" 20 35 18.0
+201 "T char" 11 35 18.0
+23 "T $" 15 24 12.0
+165 "T -" 19 29 15.0
+198 "T signed" 12 17 9.0
+198 "T union" 11 17 9.0
+8 "T float" 11 19 10.0
+23 "T $" 15 24 12.0
+23 "T union" 13 24 12.0
+165 "T -" 19 29 15.0
+165 "T unsigned" 11 29 15.0
+198 "T signed" 12 17 9.0
+198 "T union" 11 17 9.0
+201 "T char" 11 35 18.0
+8 "T float" 11 19 10.0
+23 "T $" 15 24 12.0
+23 "T enum NT general_identifier" 16 24 12.0
+23 "T union" 13 24 12.0
+165 "T char" 12 29 15.0
+165 "T struct" 13 29 15.0
+198 "T signed" 12 17 9.0
+198 "T union" 11 17 9.0
+201 "T ++ NT unary_expression" 20 35 18.0
+201 "T char" 11 35 18.0
+23 "T $" 15 24 12.0
+165 "T -" 19 29 15.0
+198 "T signed" 12 17 9.0
+198 "T union" 11 17 9.0
+201 "T char" 11 35 18.0
+8 "T float" 11 19 10.0
+23 "T $" 15 24 12.0
+23 "T union" 13 24 12.0
+165 "T -" 19 29 15.0
+165 "T char" 12 29 15.0
+165 "T struct" 13 29 15.0
+165 "T unsigned" 11 29 15.0
+198 "T signed" 12 17 9.0
+198 "T union" 11 17 9.0
+201 "T char" 11 35 18.0
+8 "T float" 11 19 10.0
+23 "T $" 15 24 12.0
+23 "T double" 18 24 12.0
+23 "T union" 13 24 12.0
+54 "T double" 14 17 9.0
+54 "T float" 15 17 9.0
+165 "T -" 19 29 15.0
+165 "T unsigned" 11 29 15.0
+186 "T float" 11 15 8.0
+198 "T signed" 12 17 9.0
+198 "T union" 11 17 9.0
+201 "T char" 11 35 18.0
+201 "T default T : NT statement" 16 35 18.0
+201 "T double" 23 35 18.0
+391 "T float" 13 16 8.0
+23 "T $" 15 24 12.0
+165 "T -" 19 29 15.0
+198 "T signed" 12 17 9.0
+198 "T union" 11 17 9.0
+23 "T $" 15 24 12.0
+165 "T -" 19 29 15.0
+198 "T signed" 12 17 9.0
+198 "T union" 11 17 9.0
+201 "T ++ NT unary_expression" 20 35 18.0
+201 "T char" 11 35 18.0
+8 "T float" 11 19 10.0
+23 "T $" 15 24 12.0
+23 "T union" 13 24 12.0
+165 "T -" 19 29 15.0
+165 "T char" 12 29 15.0
+165 "T struct" 13 29 15.0
+165 "T unsigned" 11 29 15.0
+198 "T signed" 12 17 9.0
+198 "T union" 11 17 9.0
+201 "T char" 11 35 18.0
+201 "T void" 24 35 18.0
+429 "T ++ NT unary_expression" 13 14 7.0

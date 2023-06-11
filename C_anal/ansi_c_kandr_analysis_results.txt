@@ -1,0 +1,2423 @@
+54 T NAME T TYPE Found 1 13
+54 T char Found 10 13
+54 T int Found 5 13
+54 T long Found 4 13
+54 T signed Found 7 13
+54 T struct Found 3 13
+54 T union Found 6 13
+54 T unsigned Found 2 13
+54 T void Found 8 13
+54 T volatile Found 11 13
+59 T = NT c_initializer Found 1 1
+60 T ; Found 1 1
+63 T ( NT scoped_parameter_type_list T ) Found 1 3
+63 T [ NT option_type_qualifier_list NT option_assignment_expression T ] Found 2 3
+64 T NAME T VARIABLE Found 1 2
+65 T TYPE Found 2 2
+65 T VARIABLE Found 1 2
+70 T ; Found 1 1
+89 T { NT struct_declaration_list T } Found 1 1
+93 T * NT option_type_qualifier_list NT option_pointer Found 1 3
+93 T NAME T VARIABLE Found 2 3
+94 T { NT option_block_item_list T } Found 1 1
+98 T { NT enumerator_list NT option_comma T } Found 1 1
+103 T NAME T TYPE Found 2 9
+103 T char Found 1 9
+103 T int Found 4 9
+103 T struct Found 7 9
+103 T void Found 3 9
+106 T char Found 4 6
+106 T double Found 5 6
+106 T int Found 1 6
+106 T long Found 2 6
+106 T short Found 3 6
+106 T unsigned Found 6 6
+108 T ( NT expression T ) Found 2 12
+108 T CONSTANT Found 3 12
+108 T NAME T VARIABLE Found 1 12
+113 T ( NT scoped_parameter_type_list T ) Found 1 2
+113 T [ NT option_type_qualifier_list NT option_assignment_expression T ] Found 2 2
+115 T * NT option_type_qualifier_list NT option_pointer Found 1 1
+116 T * NT option_type_qualifier_list NT option_pointer Found 2 2
+116 T const Found 1 2
+126 T NAME T TYPE Found 1 11
+126 T char Found 4 11
+126 T int Found 3 11
+126 T long Found 6 11
+126 T struct Found 5 11
+126 T unsigned Found 2 11
+131 T NAME T VARIABLE Found 1 1
+133 T char Found 1 5
+133 T int Found 3 5
+133 T unsigned Found 2 5
+135 T char Found 2 5
+135 T int Found 1 5
+135 T long Found 3 5
+135 T short Found 4 5
+137 T * NT option_type_qualifier_list NT option_pointer Found 1 1
+147 T ( NT option_argument_expression_list T ) Found 2 6
+147 T ++ Found 5 6
+147 T [ NT expression T ] Found 3 6
+149 T ( NT expression T ) Found 2 7
+149 T CONSTANT Found 3 7
+149 T NAME T VARIABLE Found 1 7
+151 T * Found 1 3
+151 T / Found 2 3
+152 T + Found 1 2
+152 T - Found 2 2
+153 T << Found 1 2
+153 T >> Found 2 2
+154 T < Found 1 4
+154 T > Found 3 4
+154 T >= Found 2 4
+155 T != Found 2 2
+155 T == Found 1 2
+156 T & NT equality_expression Found 1 1
+159 T && NT inclusive_or_expression Found 1 1
+160 T ? NT expression T : NT conditional_expression Found 2 2
+160 T || NT logical_and_expression Found 1 2
+165 T ( NT expression T ) Found 1 26
+165 T ( NT type_name T ) NT cast_expression Found 3 26
+165 T * Found 8 26
+165 T - Found 16 26
+165 T CONSTANT Found 6 26
+165 T NAME T VARIABLE Found 2 26
+165 T int Found 14 26
+165 T unsigned Found 10 26
+165 T void Found 4 26
+168 T NAME T VARIABLE Found 2 2
+170 T ( NT type_name T ) Found 2 4
+179 T VARIABLE Found 1 1
+181 T += Found 2 11
+181 T = Found 1 11
+186 T NAME T TYPE Found 1 10
+186 T char Found 5 10
+186 T const Found 2 10
+186 T double Found 6 10
+186 T int Found 3 10
+186 T long Found 8 10
+186 T struct Found 9 10
+186 T unsigned Found 7 10
+186 T void Found 4 10
+187 T ) Found 1 1
+188 T ( NT expression T ) Found 2 3
+188 T CONSTANT Found 1 3
+191 T ) Found 1 1
+198 T NAME T TYPE Found 1 14
+198 T char Found 4 14
+198 T const Found 10 14
+198 T int Found 5 14
+198 T long Found 8 14
+198 T short Found 9 14
+198 T signed Found 12 14
+198 T struct Found 7 14
+198 T union Found 11 14
+198 T unsigned Found 3 14
+198 T void Found 6 14
+198 T } Found 2 14
+200 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+200 T NAME T VARIABLE Found 1 3
+201 T ++ NT unary_expression Found 26 31
+201 T NAME T TYPE Found 5 31
+201 T NAME T VARIABLE Found 1 31
+201 T char Found 15 31
+201 T int Found 11 31
+201 T return NT option_expression T ; Found 3 31
+201 T } Found 2 31
+204 T , NT enumerator Found 1 1
+206 T = NT constant_expression Found 1 1
+208 T int Found 2 3
+208 T short Found 3 3
+231 T [ NT option_assignment_expression T ] Found 1 1
+235 T CONSTANT Found 6 13
+235 T NAME T VARIABLE Found 1 13
+235 T STRING_LITERAL Found 3 13
+236 T ( NT type_name T ) NT cast_expression Found 6 10
+236 T CONSTANT Found 1 10
+236 T NAME T VARIABLE Found 2 10
+242 T ( NT expression T ) Found 2 7
+242 T ( NT type_name T ) NT cast_expression Found 5 7
+242 T sizeof T ( NT type_name T ) Found 1 7
+246 T CONSTANT Found 1 9
+246 T NAME T VARIABLE Found 3 9
+246 T sizeof T ( NT type_name T ) Found 5 9
+249 T ( NT expression T ) Found 2 3
+249 T CONSTANT Found 1 3
+252 T CONSTANT Found 2 9
+252 T NAME T VARIABLE Found 1 9
+257 T ( NT expression T ) Found 1 8
+257 T - Found 6 8
+257 T CONSTANT Found 2 8
+260 T ( NT type_name T ) NT cast_expression Found 5 5
+263 T ( NT expression T ) Found 1 6
+263 T NAME T VARIABLE Found 2 6
+264 T ! Found 3 5
+264 T ( NT expression T ) Found 1 5
+265 T ( NT expression T ) Found 1 9
+267 T ) Found 1 2
+269 T ) NT cast_expression Found 1 1
+276 T NAME T TYPE Found 2 13
+276 T int Found 5 13
+276 T unsigned Found 4 13
+276 T void Found 6 13
+279 T CONSTANT Found 2 13
+279 T NAME T VARIABLE Found 1 13
+298 T ( NT save_context NT declarator T ) Found 3 4
+298 T * NT option_type_qualifier_list NT option_pointer Found 1 4
+298 T NAME T VARIABLE Found 2 4
+300 T , T ... Found 2 2
+300 T , NT parameter_declaration Found 1 2
+305 T ] Found 1 1
+313 T ; Found 1 1
+320 T for T ( NT declaration NT option_expression T ; NT option_expression T ) NT scoped_statement NotFound
+320 T for T ( NT option_expression T ; NT option_expression T ; NT option_expression T ) NT scoped_statement Found 4 7
+320 T if T ( NT expression T ) NT scoped_statement Found 2 7
+320 T if T ( NT expression T ) NT scoped_statement T else NT scoped_statement Found 3 7
+320 T while T ( NT expression T ) NT scoped_statement Found 5 7
+320 T { NT option_block_item_list T } Found 1 7
+331 T ; Found 1 1
+338 T ( NT expression T ) Found 1 9
+338 T - Found 5 9
+338 T CONSTANT Found 3 9
+338 T NAME T VARIABLE Found 2 9
+339 T } Found 1 1
+340 T NAME T VARIABLE Found 1 1
+341 T ( NT expression T ) Found 2 5
+346 T CONSTANT Found 1 1
+351 T ) Found 1 1
+352 T , NT assignment_expression Found 1 1
+353 T ] Found 1 1
+357 T * Found 1 2
+366 T : NT conditional_expression Found 1 2
+369 T ( NT expression T ) Found 2 12
+369 T CONSTANT Found 1 12
+369 T NAME T VARIABLE Found 3 12
+369 T sizeof T ( NT type_name T ) Found 5 12
+373 T ) Found 1 1
+386 T NAME T VARIABLE Found 1 1
+391 T ... Found 5 11
+391 T NAME T TYPE Found 1 11
+391 T char Found 4 11
+391 T const Found 2 11
+391 T double Found 9 11
+391 T int Found 3 11
+391 T long Found 8 11
+391 T struct Found 6 11
+391 T void Found 7 11
+404 T ( NT expression T ) NT scoped_statement Found 1 2
+404 T ( NT expression T ) NT scoped_statement T else NT scoped_statement Found 2 2
+406 T ( NT expression T ) NT scoped_statement Found 1 1
+408 T ( NT declaration NT option_expression T ; NT option_expression T ) NT scoped_statement NotFound
+408 T ( NT option_expression T ; NT option_expression T ; NT option_expression T ) NT scoped_statement Found 1 1
+415 T ; Found 1 1
+422 T ] Found 1 1
+429 T CONSTANT Found 2 13
+429 T NAME T VARIABLE Found 1 13
+431 T ( NT expression T ) Found 1 7
+445 T * NT option_type_qualifier_list NT option_pointer Found 1 1
+455 T ! Found 3 8
+455 T ( NT expression T ) Found 2 8
+455 T NAME T VARIABLE Found 1 8
+457 T ( NT expression T ) Found 2 5
+460 T NAME T TYPE NotFound
+460 T NAME T VARIABLE Found 1 2
+483 T ) NT scoped_statement Found 1 2
+483 T ) NT scoped_statement T else NT scoped_statement Found 2 2
+485 T ) NT scoped_statement Found 1 1
+488 T NAME T VARIABLE NotFound
+489 T ; NT option_expression T ; NT option_expression T ) NT scoped_statement Found 1 1
+504 T ; NT option_expression T ) NT scoped_statement NotFound
+505 T NAME T VARIABLE Found 1 3
+512 T else NT scoped_statement Found 1 1
+516 T ++ NT unary_expression NotFound
+517 T ; NT option_expression T ) NT scoped_statement Found 1 1
+520 T ) NT scoped_statement NotFound
+521 T ++ NT unary_expression Found 3 3
+525 T ) NT scoped_statement Found 1 1
+0 T typedef NT list_ge1_type_specifier_nonunique_declaration_specifier Found 1 6
+5 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+5 T NAME T VARIABLE Found 1 3
+6 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+6 T NAME T VARIABLE Found 1 3
+8 T NAME T TYPE Found 2 13
+8 T char Found 4 13
+8 T int Found 1 13
+8 T long Found 6 13
+8 T void Found 3 13
+17 T int Found 1 7
+22 T NAME T VARIABLE Found 1 1
+23 T $ Found 13 19
+23 T extern Found 1 19
+23 T float Found 17 19
+23 T int Found 9 19
+23 T struct Found 7 19
+23 T typedef NT list_eq1_type_specifier_unique_declaration_specifier Found 2 19
+23 T typedef NT list_ge1_type_specifier_nonunique_declaration_specifier Found 3 19
+26 T TYPE Found 1 1
+54 T NAME T TYPE Found 1 13
+54 T char Found 10 13
+54 T int Found 5 13
+54 T long Found 4 13
+54 T signed Found 7 13
+54 T struct Found 3 13
+54 T unsigned Found 2 13
+54 T void Found 8 13
+60 T ; Found 1 1
+61 T , NT init_declarator_declarator_varname Found 1 1
+63 T ( NT scoped_parameter_type_list T ) Found 1 3
+63 T [ NT option_type_qualifier_list NT option_assignment_expression T ] Found 2 3
+64 T NAME T VARIABLE Found 1 2
+65 T TYPE Found 2 2
+65 T VARIABLE Found 1 2
+70 T ; Found 1 1
+89 T { NT struct_declaration_list T } Found 1 1
+93 T NAME T VARIABLE Found 2 3
+94 T { NT option_block_item_list T } Found 1 1
+103 T NAME T TYPE Found 2 9
+103 T char Found 1 9
+103 T void Found 3 9
+106 T char Found 4 6
+106 T int Found 1 6
+106 T long Found 2 6
+106 T short Found 3 6
+106 T unsigned Found 6 6
+110 T NAME T VARIABLE Found 1 2
+113 T ( NT scoped_parameter_type_list T ) Found 1 2
+116 T * NT option_type_qualifier_list NT option_pointer Found 2 2
+126 T NAME T TYPE Found 1 11
+126 T int Found 3 11
+126 T unsigned Found 2 11
+135 T char Found 2 5
+135 T int Found 1 5
+135 T short Found 4 5
+137 T * NT option_type_qualifier_list NT option_pointer Found 1 1
+147 T ( NT option_argument_expression_list T ) Found 2 6
+151 T * Found 1 3
+151 T / Found 2 3
+152 T + Found 1 2
+152 T - Found 2 2
+154 T <= Found 4 4
+165 T CONSTANT Found 6 26
+170 T ( NT type_name T ) Found 2 4
+179 T VARIABLE Found 1 1
+181 T += Found 2 11
+181 T = Found 1 11
+186 T NAME T TYPE Found 1 10
+186 T char Found 5 10
+186 T const Found 2 10
+186 T int Found 3 10
+186 T void Found 4 10
+187 T ) Found 1 1
+188 T CONSTANT Found 1 3
+198 T NAME T TYPE Found 1 14
+198 T char Found 4 14
+198 T int Found 5 14
+198 T signed Found 12 14
+198 T struct Found 7 14
+198 T union Found 11 14
+198 T unsigned Found 3 14
+198 T void Found 6 14
+198 T } Found 2 14
+200 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+200 T NAME T VARIABLE Found 1 3
+201 T NAME T VARIABLE Found 1 31
+201 T float Found 21 31
+201 T int Found 11 31
+201 T return NT option_expression T ; Found 3 31
+201 T } Found 2 31
+231 T [ NT option_assignment_expression T ] Found 1 1
+235 T NAME T VARIABLE Found 1 13
+235 T STRING_LITERAL Found 3 13
+242 T CONSTANT Found 4 7
+242 T NAME T VARIABLE Found 3 7
+242 T sizeof T ( NT type_name T ) Found 1 7
+246 T CONSTANT Found 1 9
+246 T sizeof T ( NT type_name T ) Found 5 9
+252 T NAME T VARIABLE Found 1 9
+267 T ) Found 1 2
+276 T NAME T TYPE Found 2 13
+276 T int Found 5 13
+276 T void Found 6 13
+279 T CONSTANT Found 2 13
+279 T NAME T VARIABLE Found 1 13
+298 T * NT option_type_qualifier_list NT option_pointer Found 1 4
+298 T NAME T VARIABLE Found 2 4
+300 T , T ... Found 2 2
+300 T , NT parameter_declaration Found 1 2
+305 T ] Found 1 1
+313 T ; Found 1 1
+320 T while T ( NT expression T ) NT scoped_statement Found 5 7
+320 T { NT option_block_item_list T } Found 1 7
+331 T ; Found 1 1
+338 T ( NT expression T ) Found 1 9
+338 T CONSTANT Found 3 9
+346 T CONSTANT Found 1 1
+351 T ) Found 1 1
+352 T , NT assignment_expression Found 1 1
+357 T * Found 1 2
+373 T ) Found 1 1
+386 T NAME T VARIABLE Found 1 1
+391 T ... Found 5 11
+391 T NAME T TYPE Found 1 11
+391 T char Found 4 11
+391 T const Found 2 11
+391 T int Found 3 11
+391 T long Found 8 11
+406 T ( NT expression T ) NT scoped_statement Found 1 1
+415 T ; Found 1 1
+422 T ] Found 1 1
+429 T NAME T VARIABLE Found 1 13
+457 T NAME T VARIABLE Found 1 5
+485 T ) NT scoped_statement Found 1 1
+0 T typedef NT list_ge1_type_specifier_nonunique_declaration_specifier Found 1 6
+5 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+5 T NAME T VARIABLE Found 1 3
+6 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+6 T NAME T VARIABLE Found 1 3
+8 T NAME T TYPE Found 2 13
+8 T char Found 4 13
+8 T int Found 1 13
+8 T long Found 6 13
+8 T void Found 3 13
+17 T int Found 1 7
+22 T NAME T VARIABLE Found 1 1
+23 T $ Found 13 19
+23 T extern Found 1 19
+23 T int Found 9 19
+23 T struct Found 7 19
+23 T typedef NT list_eq1_type_specifier_unique_declaration_specifier Found 2 19
+23 T typedef NT list_ge1_type_specifier_nonunique_declaration_specifier Found 3 19
+23 T void Found 6 19
+26 T TYPE Found 1 1
+54 T NAME T TYPE Found 1 13
+54 T char Found 10 13
+54 T int Found 5 13
+54 T long Found 4 13
+54 T signed Found 7 13
+54 T struct Found 3 13
+54 T unsigned Found 2 13
+54 T void Found 8 13
+60 T ; Found 1 1
+61 T , NT init_declarator_declarator_varname Found 1 1
+63 T ( NT scoped_parameter_type_list T ) Found 1 3
+63 T [ NT option_type_qualifier_list NT option_assignment_expression T ] Found 2 3
+64 T NAME T VARIABLE Found 1 2
+65 T TYPE Found 2 2
+65 T VARIABLE Found 1 2
+70 T ; Found 1 1
+89 T { NT struct_declaration_list T } Found 1 1
+93 T NAME T VARIABLE Found 2 3
+94 T { NT option_block_item_list T } Found 1 1
+103 T NAME T TYPE Found 2 9
+103 T char Found 1 9
+103 T void Found 3 9
+106 T char Found 4 6
+106 T int Found 1 6
+106 T long Found 2 6
+106 T short Found 3 6
+106 T unsigned Found 6 6
+110 T NAME T VARIABLE Found 1 2
+113 T ( NT scoped_parameter_type_list T ) Found 1 2
+116 T * NT option_type_qualifier_list NT option_pointer Found 2 2
+126 T NAME T TYPE Found 1 11
+126 T int Found 3 11
+126 T unsigned Found 2 11
+135 T char Found 2 5
+135 T int Found 1 5
+135 T short Found 4 5
+137 T * NT option_type_qualifier_list NT option_pointer Found 1 1
+147 T ( NT option_argument_expression_list T ) Found 2 6
+147 T [ NT expression T ] Found 3 6
+149 T CONSTANT Found 3 7
+151 T * Found 1 3
+152 T + Found 1 2
+152 T - Found 2 2
+154 T < Found 1 4
+154 T > Found 3 4
+155 T != Found 2 2
+155 T == Found 1 2
+159 T && NT inclusive_or_expression Found 1 1
+160 T || NT logical_and_expression Found 1 2
+165 T - Found 16 26
+165 T NAME T VARIABLE Found 2 26
+168 T NAME T VARIABLE Found 2 2
+169 T NAME T VARIABLE Found 1 1
+170 T ( NT type_name T ) Found 2 4
+179 T VARIABLE Found 1 1
+181 T = Found 1 11
+186 T NAME T TYPE Found 1 10
+186 T char Found 5 10
+186 T const Found 2 10
+186 T int Found 3 10
+186 T void Found 4 10
+187 T ) Found 1 1
+188 T CONSTANT Found 1 3
+198 T NAME T TYPE Found 1 14
+198 T char Found 4 14
+198 T int Found 5 14
+198 T signed Found 12 14
+198 T struct Found 7 14
+198 T union Found 11 14
+198 T unsigned Found 3 14
+198 T void Found 6 14
+198 T } Found 2 14
+200 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+200 T NAME T VARIABLE Found 1 3
+201 T ++ NT unary_expression Found 26 31
+201 T NAME T VARIABLE Found 1 31
+201 T char Found 15 31
+201 T int Found 11 31
+201 T return NT option_expression T ; Found 3 31
+201 T } Found 2 31
+231 T [ NT option_assignment_expression T ] Found 1 1
+235 T NAME T VARIABLE Found 1 13
+235 T STRING_LITERAL Found 3 13
+236 T NAME T VARIABLE Found 2 10
+242 T sizeof T ( NT type_name T ) Found 1 7
+246 T CONSTANT Found 1 9
+246 T sizeof T ( NT type_name T ) Found 5 9
+252 T CONSTANT Found 2 9
+252 T NAME T VARIABLE Found 1 9
+257 T ( NT expression T ) Found 1 8
+257 T CONSTANT Found 2 8
+263 T ( NT expression T ) Found 1 6
+263 T NAME T VARIABLE Found 2 6
+264 T NAME T VARIABLE Found 2 5
+267 T ) Found 1 2
+276 T NAME T TYPE Found 2 13
+276 T int Found 5 13
+276 T void Found 6 13
+279 T CONSTANT Found 2 13
+279 T NAME T VARIABLE Found 1 13
+298 T * NT option_type_qualifier_list NT option_pointer Found 1 4
+298 T NAME T VARIABLE Found 2 4
+300 T , T ... Found 2 2
+300 T , NT parameter_declaration Found 1 2
+305 T ] Found 1 1
+313 T ; Found 1 1
+320 T for T ( NT option_expression T ; NT option_expression T ; NT option_expression T ) NT scoped_statement Found 4 7
+320 T if T ( NT expression T ) NT scoped_statement Found 2 7
+320 T while T ( NT expression T ) NT scoped_statement Found 5 7
+320 T { NT option_block_item_list T } Found 1 7
+331 T ; Found 1 1
+338 T CONSTANT Found 3 9
+338 T NAME T VARIABLE Found 2 9
+346 T CONSTANT Found 1 1
+351 T ) Found 1 1
+352 T , NT assignment_expression Found 1 1
+353 T ] Found 1 1
+357 T * Found 1 2
+373 T ) Found 1 1
+386 T NAME T VARIABLE Found 1 1
+391 T ... Found 5 11
+391 T NAME T TYPE Found 1 11
+391 T char Found 4 11
+391 T const Found 2 11
+391 T int Found 3 11
+391 T long Found 8 11
+404 T ( NT expression T ) NT scoped_statement Found 1 2
+406 T ( NT expression T ) NT scoped_statement Found 1 1
+408 T ( NT option_expression T ; NT option_expression T ; NT option_expression T ) NT scoped_statement Found 1 1
+415 T ; Found 1 1
+422 T ] Found 1 1
+429 T CONSTANT Found 2 13
+429 T NAME T VARIABLE Found 1 13
+455 T NAME T VARIABLE Found 1 8
+457 T ( NT expression T ) Found 2 5
+460 T NAME T VARIABLE Found 1 2
+483 T ) NT scoped_statement Found 1 2
+485 T ) NT scoped_statement Found 1 1
+489 T ; NT option_expression T ; NT option_expression T ) NT scoped_statement Found 1 1
+505 T NAME T VARIABLE Found 1 3
+517 T ; NT option_expression T ) NT scoped_statement Found 1 1
+521 T ++ NT unary_expression Found 3 3
+521 T -- NT unary_expression NotFound
+525 T ) NT scoped_statement Found 1 1
+0 T typedef NT list_ge1_type_specifier_nonunique_declaration_specifier Found 1 6
+5 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+5 T NAME T VARIABLE Found 1 3
+6 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+6 T NAME T VARIABLE Found 1 3
+8 T NAME T TYPE Found 2 13
+8 T char Found 4 13
+8 T int Found 1 13
+8 T long Found 6 13
+8 T void Found 3 13
+17 T int Found 1 7
+22 T NAME T VARIABLE Found 1 1
+23 T $ Found 13 19
+23 T extern Found 1 19
+23 T int Found 9 19
+23 T struct Found 7 19
+23 T typedef NT list_eq1_type_specifier_unique_declaration_specifier Found 2 19
+23 T typedef NT list_ge1_type_specifier_nonunique_declaration_specifier Found 3 19
+26 T TYPE Found 1 1
+54 T NAME T TYPE Found 1 13
+54 T char Found 10 13
+54 T int Found 5 13
+54 T long Found 4 13
+54 T signed Found 7 13
+54 T struct Found 3 13
+54 T unsigned Found 2 13
+54 T void Found 8 13
+60 T ; Found 1 1
+63 T ( NT scoped_parameter_type_list T ) Found 1 3
+63 T [ NT option_type_qualifier_list NT option_assignment_expression T ] Found 2 3
+64 T NAME T VARIABLE Found 1 2
+65 T TYPE Found 2 2
+65 T VARIABLE Found 1 2
+70 T ; Found 1 1
+89 T { NT struct_declaration_list T } Found 1 1
+94 T { NT option_block_item_list T } Found 1 1
+103 T NAME T TYPE Found 2 9
+103 T char Found 1 9
+103 T void Found 3 9
+106 T char Found 4 6
+106 T int Found 1 6
+106 T long Found 2 6
+106 T short Found 3 6
+106 T unsigned Found 6 6
+113 T ( NT scoped_parameter_type_list T ) Found 1 2
+116 T * NT option_type_qualifier_list NT option_pointer Found 2 2
+126 T NAME T TYPE Found 1 11
+126 T int Found 3 11
+126 T unsigned Found 2 11
+135 T char Found 2 5
+135 T int Found 1 5
+135 T short Found 4 5
+137 T * NT option_type_qualifier_list NT option_pointer Found 1 1
+147 T ( NT option_argument_expression_list T ) Found 2 6
+149 T CONSTANT Found 3 7
+151 T * Found 1 3
+152 T + Found 1 2
+152 T - Found 2 2
+165 T - Found 16 26
+165 T CONSTANT Found 6 26
+170 T ( NT type_name T ) Found 2 4
+186 T NAME T TYPE Found 1 10
+186 T char Found 5 10
+186 T const Found 2 10
+186 T int Found 3 10
+186 T void Found 4 10
+187 T ) Found 1 1
+188 T CONSTANT Found 1 3
+198 T NAME T TYPE Found 1 14
+198 T char Found 4 14
+198 T int Found 5 14
+198 T signed Found 12 14
+198 T struct Found 7 14
+198 T union Found 11 14
+198 T unsigned Found 3 14
+198 T void Found 6 14
+198 T } Found 2 14
+200 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+200 T NAME T VARIABLE Found 1 3
+201 T NAME T VARIABLE Found 1 31
+201 T return NT option_expression T ; Found 3 31
+201 T } Found 2 31
+231 T [ NT option_assignment_expression T ] Found 1 1
+235 T STRING_LITERAL Found 3 13
+242 T CONSTANT Found 4 7
+242 T sizeof T ( NT type_name T ) Found 1 7
+246 T CONSTANT Found 1 9
+246 T sizeof T ( NT type_name T ) Found 5 9
+267 T ) Found 1 2
+276 T NAME T TYPE Found 2 13
+276 T int Found 5 13
+276 T void Found 6 13
+298 T * NT option_type_qualifier_list NT option_pointer Found 1 4
+298 T NAME T VARIABLE Found 2 4
+300 T , T ... Found 2 2
+300 T , NT parameter_declaration Found 1 2
+305 T ] Found 1 1
+313 T ; Found 1 1
+331 T ; Found 1 1
+338 T CONSTANT Found 3 9
+346 T CONSTANT Found 1 1
+351 T ) Found 1 1
+352 T , NT assignment_expression Found 1 1
+357 T * Found 1 2
+373 T ) Found 1 1
+386 T NAME T VARIABLE Found 1 1
+391 T ... Found 5 11
+391 T NAME T TYPE Found 1 11
+391 T char Found 4 11
+391 T const Found 2 11
+391 T int Found 3 11
+391 T long Found 8 11
+415 T ; Found 1 1
+422 T ] Found 1 1
+429 T ( NT expression T ) Found 4 13
+429 T CONSTANT Found 2 13
+0 T typedef NT list_ge1_type_specifier_nonunique_declaration_specifier Found 1 6
+5 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+5 T NAME T VARIABLE Found 1 3
+6 T ( NT save_context NT declarator T ) Found 3 3
+6 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+6 T NAME T VARIABLE Found 1 3
+8 T NAME T TYPE Found 2 13
+8 T char Found 4 13
+8 T const Found 9 13
+8 T double Found 5 13
+8 T float Found 10 13
+8 T int Found 1 13
+8 T long Found 6 13
+8 T unsigned Found 7 13
+8 T void Found 3 13
+17 T double Found 5 7
+17 T int Found 1 7
+17 T long Found 3 7
+17 T short Found 4 7
+22 T NAME T VARIABLE Found 1 1
+23 T $ Found 13 19
+23 T char Found 10 19
+23 T enum NT option_general_identifier T { NT enumerator_list NT option_comma T } Found 8 19
+23 T extern Found 1 19
+23 T int Found 9 19
+23 T static Found 5 19
+23 T struct Found 7 19
+23 T typedef NT list_eq1_type_specifier_unique_declaration_specifier Found 2 19
+23 T typedef NT list_ge1_type_specifier_nonunique_declaration_specifier Found 3 19
+23 T union Found 14 19
+23 T void Found 6 19
+26 T TYPE Found 1 1
+45 T NAME T VARIABLE Found 1 1
+54 T NAME T TYPE Found 1 13
+54 T char Found 10 13
+54 T int Found 5 13
+54 T long Found 4 13
+54 T signed Found 7 13
+54 T struct Found 3 13
+54 T union Found 6 13
+54 T unsigned Found 2 13
+54 T void Found 8 13
+54 T volatile Found 11 13
+59 T = NT c_initializer Found 1 1
+60 T ; Found 1 1
+63 T ( NT save_context NT option_identifier_list T ) Found 3 3
+63 T ( NT scoped_parameter_type_list T ) Found 1 3
+63 T [ NT option_type_qualifier_list NT option_assignment_expression T ] Found 2 3
+64 T NAME T VARIABLE Found 1 2
+65 T TYPE Found 2 2
+65 T VARIABLE Found 1 2
+70 T ; Found 1 1
+89 T { NT struct_declaration_list T } Found 1 1
+93 T NAME T VARIABLE Found 2 3
+94 T { NT option_block_item_list T } Found 1 1
+98 T { NT enumerator_list NT option_comma T } Found 1 1
+103 T NAME T TYPE Found 2 9
+103 T char Found 1 9
+103 T int Found 4 9
+103 T struct Found 7 9
+103 T void Found 3 9
+106 T char Found 4 6
+106 T double Found 5 6
+106 T int Found 1 6
+106 T long Found 2 6
+106 T short Found 3 6
+106 T unsigned Found 6 6
+108 T CONSTANT Found 3 12
+108 T NAME T VARIABLE Found 1 12
+113 T ( NT scoped_parameter_type_list T ) Found 1 2
+113 T [ NT option_type_qualifier_list NT option_assignment_expression T ] Found 2 2
+115 T * NT option_type_qualifier_list NT option_pointer Found 1 1
+116 T * NT option_type_qualifier_list NT option_pointer Found 2 2
+116 T const Found 1 2
+126 T NAME T TYPE Found 1 11
+126 T char Found 4 11
+126 T int Found 3 11
+126 T long Found 6 11
+126 T struct Found 5 11
+126 T unsigned Found 2 11
+131 T NAME T VARIABLE Found 1 1
+133 T char Found 1 5
+133 T int Found 3 5
+133 T unsigned Found 2 5
+135 T char Found 2 5
+135 T int Found 1 5
+135 T long Found 3 5
+135 T short Found 4 5
+137 T * NT option_type_qualifier_list NT option_pointer Found 1 1
+147 T ( NT option_argument_expression_list T ) Found 2 6
+147 T ++ Found 5 6
+147 T [ NT expression T ] Found 3 6
+149 T CONSTANT Found 3 7
+149 T NAME T VARIABLE Found 1 7
+151 T * Found 1 3
+151 T / Found 2 3
+152 T + Found 1 2
+152 T - Found 2 2
+153 T << Found 1 2
+153 T >> Found 2 2
+154 T < Found 1 4
+155 T != Found 2 2
+155 T == Found 1 2
+156 T & NT equality_expression Found 1 1
+159 T && NT inclusive_or_expression Found 1 1
+160 T ? NT expression T : NT conditional_expression Found 2 2
+160 T || NT logical_and_expression Found 1 2
+165 T ( NT expression T ) Found 1 26
+165 T * Found 8 26
+165 T - Found 16 26
+165 T CONSTANT Found 6 26
+165 T NAME T VARIABLE Found 2 26
+165 T int Found 14 26
+165 T unsigned Found 10 26
+170 T ( NT type_name T ) Found 2 4
+179 T VARIABLE Found 1 1
+181 T = Found 1 11
+186 T NAME T TYPE Found 1 10
+186 T char Found 5 10
+186 T const Found 2 10
+186 T double Found 6 10
+186 T int Found 3 10
+186 T long Found 8 10
+186 T struct Found 9 10
+186 T unsigned Found 7 10
+186 T void Found 4 10
+187 T ) Found 1 1
+188 T ( NT expression T ) Found 2 3
+188 T CONSTANT Found 1 3
+191 T ) Found 1 1
+198 T NAME T TYPE Found 1 14
+198 T char Found 4 14
+198 T const Found 10 14
+198 T int Found 5 14
+198 T long Found 8 14
+198 T short Found 9 14
+198 T signed Found 12 14
+198 T struct Found 7 14
+198 T union Found 11 14
+198 T unsigned Found 3 14
+198 T void Found 6 14
+198 T } Found 2 14
+200 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+200 T NAME T VARIABLE Found 1 3
+201 T NAME T TYPE Found 5 31
+201 T NAME T VARIABLE Found 1 31
+201 T char Found 15 31
+201 T int Found 11 31
+201 T return NT option_expression T ; Found 3 31
+201 T } Found 2 31
+204 T , NT enumerator Found 1 1
+206 T = NT constant_expression Found 1 1
+208 T int Found 2 3
+208 T short Found 3 3
+231 T [ NT option_assignment_expression T ] Found 1 1
+235 T CONSTANT Found 6 13
+235 T NAME T VARIABLE Found 1 13
+235 T STRING_LITERAL Found 3 13
+236 T ( NT type_name T ) NT cast_expression Found 6 10
+236 T CONSTANT Found 1 10
+236 T NAME T VARIABLE Found 2 10
+242 T ( NT expression T ) Found 2 7
+242 T ( NT type_name T ) NT cast_expression Found 5 7
+242 T sizeof T ( NT type_name T ) Found 1 7
+246 T CONSTANT Found 1 9
+246 T sizeof T ( NT type_name T ) Found 5 9
+249 T ( NT expression T ) Found 2 3
+249 T CONSTANT Found 1 3
+252 T CONSTANT Found 2 9
+252 T NAME T VARIABLE Found 1 9
+257 T ( NT expression T ) Found 1 8
+257 T CONSTANT Found 2 8
+257 T NAME T VARIABLE Found 3 8
+260 T ( NT type_name T ) NT cast_expression Found 5 5
+263 T NAME T VARIABLE Found 2 6
+264 T NAME T VARIABLE Found 2 5
+265 T ( NT expression T ) Found 1 9
+267 T ) Found 1 2
+269 T ) NT cast_expression Found 1 1
+276 T NAME T TYPE Found 2 13
+276 T int Found 5 13
+276 T unsigned Found 4 13
+276 T void Found 6 13
+279 T CONSTANT Found 2 13
+279 T NAME T VARIABLE Found 1 13
+298 T ( NT save_context NT declarator T ) Found 3 4
+298 T * NT option_type_qualifier_list NT option_pointer Found 1 4
+298 T NAME T VARIABLE Found 2 4
+299 T ) Found 1 1
+300 T , T ... Found 2 2
+300 T , NT parameter_declaration Found 1 2
+305 T ] Found 1 1
+313 T ; Found 1 1
+320 T if T ( NT expression T ) NT scoped_statement Found 2 7
+320 T if T ( NT expression T ) NT scoped_statement T else NT scoped_statement Found 3 7
+320 T while T ( NT expression T ) NT scoped_statement Found 5 7
+320 T { NT option_block_item_list T } Found 1 7
+331 T ; Found 1 1
+338 T CONSTANT Found 3 9
+338 T NAME T VARIABLE Found 2 9
+339 T } Found 1 1
+340 T NAME T VARIABLE Found 1 1
+341 T ( NT expression T ) Found 2 5
+341 T CONSTANT Found 1 5
+346 T CONSTANT Found 1 1
+351 T ) Found 1 1
+352 T , NT assignment_expression Found 1 1
+353 T ] Found 1 1
+357 T * Found 1 2
+366 T : NT conditional_expression Found 1 2
+369 T ( NT expression T ) Found 2 12
+369 T NAME T VARIABLE Found 3 12
+369 T sizeof T ( NT type_name T ) Found 5 12
+373 T ) Found 1 1
+386 T NAME T VARIABLE Found 1 1
+391 T ... Found 5 11
+391 T NAME T TYPE Found 1 11
+391 T char Found 4 11
+391 T const Found 2 11
+391 T double Found 9 11
+391 T int Found 3 11
+391 T long Found 8 11
+391 T struct Found 6 11
+391 T void Found 7 11
+404 T ( NT expression T ) NT scoped_statement Found 1 2
+404 T ( NT expression T ) NT scoped_statement T else NT scoped_statement Found 2 2
+406 T ( NT expression T ) NT scoped_statement Found 1 1
+415 T ; Found 1 1
+422 T ] Found 1 1
+429 T CONSTANT Found 2 13
+429 T NAME T VARIABLE Found 1 13
+429 T STRING_LITERAL Found 3 13
+431 T ( NT expression T ) Found 1 7
+445 T * NT option_type_qualifier_list NT option_pointer Found 1 1
+455 T ( NT expression T ) Found 2 8
+455 T NAME T VARIABLE Found 1 8
+457 T ( NT expression T ) Found 2 5
+457 T NAME T VARIABLE Found 1 5
+483 T ) NT scoped_statement Found 1 2
+483 T ) NT scoped_statement T else NT scoped_statement Found 2 2
+485 T ) NT scoped_statement Found 1 1
+512 T else NT scoped_statement Found 1 1
+0 T typedef NT list_ge1_type_specifier_nonunique_declaration_specifier Found 1 6
+5 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+5 T NAME T VARIABLE Found 1 3
+6 T ( NT save_context NT declarator T ) Found 3 3
+6 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+6 T NAME T VARIABLE Found 1 3
+8 T NAME T TYPE Found 2 13
+8 T char Found 4 13
+8 T const Found 9 13
+8 T double Found 5 13
+8 T float Found 10 13
+8 T int Found 1 13
+8 T long Found 6 13
+8 T struct Found 11 13
+8 T unsigned Found 7 13
+8 T void Found 3 13
+17 T double Found 5 7
+17 T int Found 1 7
+17 T long Found 3 7
+17 T short Found 4 7
+22 T NAME T VARIABLE Found 1 1
+23 T $ Found 13 19
+23 T NAME T TYPE Found 4 19
+23 T char Found 10 19
+23 T enum NT general_identifier Found 18 19
+23 T enum NT option_general_identifier T { NT enumerator_list NT option_comma T } Found 8 19
+23 T extern Found 1 19
+23 T int Found 9 19
+23 T static Found 5 19
+23 T struct Found 7 19
+23 T typedef NT list_eq1_type_specifier_unique_declaration_specifier Found 2 19
+23 T typedef NT list_ge1_type_specifier_nonunique_declaration_specifier Found 3 19
+23 T union Found 14 19
+26 T TYPE Found 1 1
+45 T NAME T VARIABLE Found 1 1
+54 T NAME T TYPE Found 1 13
+54 T char Found 10 13
+54 T int Found 5 13
+54 T long Found 4 13
+54 T signed Found 7 13
+54 T struct Found 3 13
+54 T union Found 6 13
+54 T unsigned Found 2 13
+54 T void Found 8 13
+54 T volatile Found 11 13
+59 T = NT c_initializer Found 1 1
+60 T ; Found 1 1
+63 T ( NT scoped_parameter_type_list T ) Found 1 3
+63 T [ NT option_type_qualifier_list NT option_assignment_expression T ] Found 2 3
+64 T NAME T VARIABLE Found 1 2
+65 T TYPE Found 2 2
+65 T VARIABLE Found 1 2
+70 T ; Found 1 1
+89 T { NT struct_declaration_list T } Found 1 1
+93 T * NT option_type_qualifier_list NT option_pointer Found 1 3
+93 T NAME T VARIABLE Found 2 3
+94 T { NT option_block_item_list T } Found 1 1
+98 T { NT enumerator_list NT option_comma T } Found 1 1
+103 T NAME T TYPE Found 2 9
+103 T char Found 1 9
+103 T int Found 4 9
+103 T struct Found 7 9
+103 T void Found 3 9
+106 T char Found 4 6
+106 T double Found 5 6
+106 T int Found 1 6
+106 T long Found 2 6
+106 T short Found 3 6
+106 T unsigned Found 6 6
+108 T ( NT type_name T ) NT cast_expression Found 6 12
+108 T CONSTANT Found 3 12
+108 T NAME T VARIABLE Found 1 12
+113 T ( NT scoped_parameter_type_list T ) Found 1 2
+113 T [ NT option_type_qualifier_list NT option_assignment_expression T ] Found 2 2
+115 T * NT option_type_qualifier_list NT option_pointer Found 1 1
+116 T * NT option_type_qualifier_list NT option_pointer Found 2 2
+116 T const Found 1 2
+126 T NAME T TYPE Found 1 11
+126 T char Found 4 11
+126 T int Found 3 11
+126 T long Found 6 11
+126 T struct Found 5 11
+126 T unsigned Found 2 11
+131 T NAME T VARIABLE Found 1 1
+133 T char Found 1 5
+133 T int Found 3 5
+133 T unsigned Found 2 5
+135 T char Found 2 5
+135 T int Found 1 5
+135 T long Found 3 5
+135 T short Found 4 5
+137 T * NT option_type_qualifier_list NT option_pointer Found 1 1
+147 T ( NT option_argument_expression_list T ) Found 2 6
+147 T -> NT general_identifier Found 1 6
+147 T [ NT expression T ] Found 3 6
+149 T NAME T VARIABLE Found 1 7
+151 T % Found 3 3
+151 T * Found 1 3
+151 T / Found 2 3
+152 T + Found 1 2
+152 T - Found 2 2
+153 T << Found 1 2
+153 T >> Found 2 2
+154 T < Found 1 4
+155 T != Found 2 2
+155 T == Found 1 2
+159 T && NT inclusive_or_expression Found 1 1
+160 T ? NT expression T : NT conditional_expression Found 2 2
+160 T || NT logical_and_expression Found 1 2
+165 T ( NT expression T ) Found 1 26
+165 T ( NT type_name T ) NT cast_expression Found 3 26
+165 T CONSTANT Found 6 26
+165 T NAME T VARIABLE Found 2 26
+165 T char Found 9 26
+165 T int Found 14 26
+165 T struct Found 7 26
+165 T void Found 4 26
+168 T NAME T VARIABLE Found 2 2
+170 T ( NT expression T ) Found 1 4
+170 T ( NT type_name T ) Found 2 4
+179 T VARIABLE Found 1 1
+181 T = Found 1 11
+186 T NAME T TYPE Found 1 10
+186 T char Found 5 10
+186 T const Found 2 10
+186 T double Found 6 10
+186 T int Found 3 10
+186 T long Found 8 10
+186 T struct Found 9 10
+186 T unsigned Found 7 10
+186 T void Found 4 10
+187 T ) Found 1 1
+188 T ( NT expression T ) Found 2 3
+188 T CONSTANT Found 1 3
+191 T ) Found 1 1
+198 T NAME T TYPE Found 1 14
+198 T char Found 4 14
+198 T const Found 10 14
+198 T int Found 5 14
+198 T long Found 8 14
+198 T short Found 9 14
+198 T signed Found 12 14
+198 T struct Found 7 14
+198 T union Found 11 14
+198 T unsigned Found 3 14
+198 T void Found 6 14
+198 T } Found 2 14
+200 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+200 T NAME T VARIABLE Found 1 3
+201 T ++ NT unary_expression Found 26 31
+201 T NAME T TYPE Found 5 31
+201 T NAME T VARIABLE Found 1 31
+201 T char Found 15 31
+201 T return NT option_expression T ; Found 3 31
+201 T struct Found 14 31
+201 T } Found 2 31
+204 T , NT enumerator Found 1 1
+206 T = NT constant_expression Found 1 1
+208 T int Found 2 3
+208 T short Found 3 3
+231 T [ NT option_assignment_expression T ] Found 1 1
+235 T NAME T VARIABLE Found 1 13
+235 T STRING_LITERAL Found 3 13
+235 T sizeof NT unary_expression Found 8 13
+236 T NAME T VARIABLE Found 2 10
+238 T NAME T VARIABLE Found 1 1
+242 T ( NT expression T ) Found 2 7
+242 T ( NT type_name T ) NT cast_expression Found 5 7
+242 T CONSTANT Found 4 7
+242 T NAME T VARIABLE Found 3 7
+242 T sizeof T ( NT type_name T ) Found 1 7
+246 T CONSTANT Found 1 9
+246 T sizeof T ( NT type_name T ) Found 5 9
+249 T ( NT expression T ) Found 2 3
+249 T CONSTANT Found 1 3
+252 T CONSTANT Found 2 9
+257 T ( NT expression T ) Found 1 8
+257 T CONSTANT Found 2 8
+263 T NAME T VARIABLE Found 2 6
+264 T ( NT expression T ) Found 1 5
+265 T ( NT expression T ) Found 1 9
+267 T ) Found 1 2
+269 T ) NT cast_expression Found 1 1
+276 T * NotFound
+276 T NAME T TYPE Found 2 13
+276 T int Found 5 13
+276 T unsigned Found 4 13
+276 T void Found 6 13
+279 T ( NT expression T ) Found 3 13
+279 T ( NT type_name T ) NT cast_expression Found 4 13
+279 T * Found 5 13
+279 T NAME T VARIABLE Found 1 13
+298 T ( NT save_context NT declarator T ) Found 3 4
+298 T * NT option_type_qualifier_list NT option_pointer Found 1 4
+298 T NAME T VARIABLE Found 2 4
+300 T , T ... Found 2 2
+300 T , NT parameter_declaration Found 1 2
+305 T ] Found 1 1
+313 T ; Found 1 1
+320 T for T ( NT option_expression T ; NT option_expression T ; NT option_expression T ) NT scoped_statement Found 4 7
+320 T if T ( NT expression T ) NT scoped_statement Found 2 7
+320 T if T ( NT expression T ) NT scoped_statement T else NT scoped_statement Found 3 7
+320 T while T ( NT expression T ) NT scoped_statement Found 5 7
+320 T { NT option_block_item_list T } Found 1 7
+325 T , NT assignment_expression Found 1 1
+331 T ; Found 1 1
+338 T ( NT expression T ) Found 1 9
+338 T CONSTANT Found 3 9
+338 T NAME T VARIABLE Found 2 9
+339 T } Found 1 1
+340 T NAME T VARIABLE Found 1 1
+341 T ( NT expression T ) Found 2 5
+346 T CONSTANT Found 1 1
+351 T ) Found 1 1
+352 T , NT assignment_expression Found 1 1
+353 T ] Found 1 1
+357 T * Found 1 2
+366 T : NT conditional_expression Found 1 2
+368 T NAME T VARIABLE Found 1 3
+369 T CONSTANT Found 1 12
+369 T NAME T VARIABLE Found 3 12
+369 T sizeof T ( NT type_name T ) Found 5 12
+373 T ) Found 1 1
+386 T NAME T VARIABLE Found 1 1
+391 T ... Found 5 11
+391 T NAME T TYPE Found 1 11
+391 T char Found 4 11
+391 T const Found 2 11
+391 T double Found 9 11
+391 T int Found 3 11
+391 T long Found 8 11
+391 T struct Found 6 11
+391 T void Found 7 11
+404 T ( NT expression T ) NT scoped_statement Found 1 2
+404 T ( NT expression T ) NT scoped_statement T else NT scoped_statement Found 2 2
+406 T ( NT expression T ) NT scoped_statement Found 1 1
+408 T ( NT option_expression T ; NT option_expression T ; NT option_expression T ) NT scoped_statement Found 1 1
+415 T ; Found 1 1
+422 T ] Found 1 1
+429 T NAME T VARIABLE Found 1 13
+429 T STRING_LITERAL Found 3 13
+431 T ( NT expression T ) Found 1 7
+445 T * NT option_type_qualifier_list NT option_pointer Found 1 1
+455 T ( NT expression T ) Found 2 8
+455 T NAME T VARIABLE Found 1 8
+457 T * Found 3 5
+460 T NAME T VARIABLE Found 1 2
+483 T ) NT scoped_statement Found 1 2
+483 T ) NT scoped_statement T else NT scoped_statement Found 2 2
+485 T ) NT scoped_statement Found 1 1
+489 T ; NT option_expression T ; NT option_expression T ) NT scoped_statement Found 1 1
+505 T NAME T VARIABLE Found 1 3
+512 T else NT scoped_statement Found 1 1
+517 T ; NT option_expression T ) NT scoped_statement Found 1 1
+521 T NAME T VARIABLE Found 1 3
+525 T ) NT scoped_statement Found 1 1
+0 T typedef NT list_ge1_type_specifier_nonunique_declaration_specifier Found 1 6
+5 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+5 T NAME T VARIABLE Found 1 3
+6 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+6 T NAME T VARIABLE Found 1 3
+8 T NAME T TYPE Found 2 13
+8 T char Found 4 13
+8 T int Found 1 13
+8 T long Found 6 13
+8 T void Found 3 13
+17 T int Found 1 7
+22 T NAME T VARIABLE Found 1 1
+23 T $ Found 13 19
+23 T char Found 10 19
+23 T extern Found 1 19
+23 T int Found 9 19
+23 T struct Found 7 19
+23 T typedef NT list_eq1_type_specifier_unique_declaration_specifier Found 2 19
+23 T typedef NT list_ge1_type_specifier_nonunique_declaration_specifier Found 3 19
+23 T void Found 6 19
+26 T TYPE Found 1 1
+54 T NAME T TYPE Found 1 13
+54 T char Found 10 13
+54 T int Found 5 13
+54 T long Found 4 13
+54 T signed Found 7 13
+54 T struct Found 3 13
+54 T unsigned Found 2 13
+54 T void Found 8 13
+59 T = NT c_initializer Found 1 1
+60 T ; Found 1 1
+61 T , NT init_declarator_declarator_varname Found 1 1
+63 T ( NT scoped_parameter_type_list T ) Found 1 3
+63 T [ NT option_type_qualifier_list NT option_assignment_expression T ] Found 2 3
+64 T NAME T VARIABLE Found 1 2
+65 T TYPE Found 2 2
+65 T VARIABLE Found 1 2
+70 T ; Found 1 1
+89 T { NT struct_declaration_list T } Found 1 1
+93 T NAME T VARIABLE Found 2 3
+94 T { NT option_block_item_list T } Found 1 1
+103 T NAME T TYPE Found 2 9
+103 T char Found 1 9
+103 T void Found 3 9
+106 T char Found 4 6
+106 T int Found 1 6
+106 T long Found 2 6
+106 T short Found 3 6
+106 T unsigned Found 6 6
+108 T CONSTANT Found 3 12
+108 T NAME T VARIABLE Found 1 12
+110 T NAME T VARIABLE Found 1 2
+113 T ( NT scoped_parameter_type_list T ) Found 1 2
+113 T [ NT option_type_qualifier_list NT option_assignment_expression T ] Found 2 2
+116 T * NT option_type_qualifier_list NT option_pointer Found 2 2
+126 T NAME T TYPE Found 1 11
+126 T int Found 3 11
+126 T struct Found 5 11
+126 T unsigned Found 2 11
+133 T char Found 1 5
+133 T int Found 3 5
+133 T unsigned Found 2 5
+135 T char Found 2 5
+135 T int Found 1 5
+135 T short Found 4 5
+137 T * NT option_type_qualifier_list NT option_pointer Found 1 1
+147 T ( NT option_argument_expression_list T ) Found 2 6
+147 T ++ Found 5 6
+147 T [ NT expression T ] Found 3 6
+149 T CONSTANT Found 3 7
+151 T * Found 1 3
+152 T - Found 2 2
+154 T > Found 3 4
+154 T >= Found 2 4
+155 T != Found 2 2
+155 T == Found 1 2
+159 T && NT inclusive_or_expression Found 1 1
+160 T ? NT expression T : NT conditional_expression Found 2 2
+165 T - Found 16 26
+165 T NAME T VARIABLE Found 2 26
+169 T NAME T VARIABLE Found 1 1
+170 T ( NT type_name T ) Found 2 4
+179 T VARIABLE Found 1 1
+181 T = Found 1 11
+186 T NAME T TYPE Found 1 10
+186 T char Found 5 10
+186 T const Found 2 10
+186 T int Found 3 10
+186 T long Found 8 10
+186 T void Found 4 10
+187 T ) Found 1 1
+188 T CONSTANT Found 1 3
+198 T NAME T TYPE Found 1 14
+198 T char Found 4 14
+198 T const Found 10 14
+198 T int Found 5 14
+198 T signed Found 12 14
+198 T struct Found 7 14
+198 T union Found 11 14
+198 T unsigned Found 3 14
+198 T void Found 6 14
+198 T } Found 2 14
+200 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+200 T NAME T VARIABLE Found 1 3
+201 T NAME T VARIABLE Found 1 31
+201 T char Found 15 31
+201 T int Found 11 31
+201 T return NT option_expression T ; Found 3 31
+201 T } Found 2 31
+208 T int Found 2 3
+208 T short Found 3 3
+231 T [ NT option_assignment_expression T ] Found 1 1
+235 T NAME T VARIABLE Found 1 13
+235 T STRING_LITERAL Found 3 13
+236 T -- NT unary_expression Found 9 10
+236 T NAME T VARIABLE Found 2 10
+242 T sizeof T ( NT type_name T ) Found 1 7
+246 T CONSTANT Found 1 9
+246 T sizeof T ( NT type_name T ) Found 5 9
+252 T CONSTANT Found 2 9
+257 T ( NT expression T ) Found 1 8
+257 T CONSTANT Found 2 8
+263 T ( NT expression T ) Found 1 6
+263 T NAME T VARIABLE Found 2 6
+265 T NAME T VARIABLE Found 3 9
+267 T ) Found 1 2
+276 T NAME T TYPE Found 2 13
+276 T int Found 5 13
+276 T void Found 6 13
+279 T CONSTANT Found 2 13
+279 T NAME T VARIABLE Found 1 13
+298 T * NT option_type_qualifier_list NT option_pointer Found 1 4
+298 T NAME T VARIABLE Found 2 4
+300 T , T ... Found 2 2
+300 T , NT parameter_declaration Found 1 2
+305 T ] Found 1 1
+313 T ; Found 1 1
+320 T if T ( NT expression T ) NT scoped_statement Found 2 7
+320 T if T ( NT expression T ) NT scoped_statement T else NT scoped_statement Found 3 7
+320 T while T ( NT expression T ) NT scoped_statement Found 5 7
+320 T { NT option_block_item_list T } Found 1 7
+331 T ; Found 1 1
+338 T ( NT expression T ) Found 1 9
+338 T CONSTANT Found 3 9
+338 T NAME T VARIABLE Found 2 9
+346 T CONSTANT Found 1 1
+351 T ) Found 1 1
+352 T , NT assignment_expression Found 1 1
+353 T ] Found 1 1
+357 T * Found 1 2
+366 T : NT conditional_expression Found 1 2
+373 T ) Found 1 1
+386 T NAME T VARIABLE Found 1 1
+391 T ... Found 5 11
+391 T NAME T TYPE Found 1 11
+391 T char Found 4 11
+391 T const Found 2 11
+391 T int Found 3 11
+391 T long Found 8 11
+391 T void Found 7 11
+404 T ( NT expression T ) NT scoped_statement Found 1 2
+404 T ( NT expression T ) NT scoped_statement T else NT scoped_statement Found 2 2
+406 T ( NT expression T ) NT scoped_statement Found 1 1
+415 T ; Found 1 1
+422 T ] Found 1 1
+429 T CONSTANT Found 2 13
+429 T NAME T VARIABLE Found 1 13
+431 T NAME T VARIABLE Found 3 7
+455 T NAME T VARIABLE Found 1 8
+457 T NAME T VARIABLE Found 1 5
+483 T ) NT scoped_statement Found 1 2
+483 T ) NT scoped_statement T else NT scoped_statement Found 2 2
+485 T ) NT scoped_statement Found 1 1
+512 T else NT scoped_statement Found 1 1
+0 T typedef NT list_ge1_type_specifier_nonunique_declaration_specifier Found 1 6
+5 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+5 T NAME T VARIABLE Found 1 3
+6 T ( NT save_context NT declarator T ) Found 3 3
+6 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+6 T NAME T VARIABLE Found 1 3
+8 T NAME T TYPE Found 2 13
+8 T char Found 4 13
+8 T const Found 9 13
+8 T double Found 5 13
+8 T float Found 10 13
+8 T int Found 1 13
+8 T long Found 6 13
+8 T unsigned Found 7 13
+8 T void Found 3 13
+17 T double Found 5 7
+17 T int Found 1 7
+17 T long Found 3 7
+17 T short Found 4 7
+22 T NAME T VARIABLE Found 1 1
+23 T $ Found 13 19
+23 T char Found 10 19
+23 T enum NT option_general_identifier T { NT enumerator_list NT option_comma T } Found 8 19
+23 T extern Found 1 19
+23 T int Found 9 19
+23 T static Found 5 19
+23 T struct Found 7 19
+23 T typedef NT list_eq1_type_specifier_unique_declaration_specifier Found 2 19
+23 T typedef NT list_ge1_type_specifier_nonunique_declaration_specifier Found 3 19
+23 T union Found 14 19
+23 T void Found 6 19
+26 T TYPE Found 1 1
+54 T NAME T TYPE Found 1 13
+54 T char Found 10 13
+54 T int Found 5 13
+54 T long Found 4 13
+54 T signed Found 7 13
+54 T struct Found 3 13
+54 T union Found 6 13
+54 T unsigned Found 2 13
+54 T void Found 8 13
+54 T volatile Found 11 13
+59 T = NT c_initializer Found 1 1
+60 T ; Found 1 1
+63 T ( NT save_context NT option_identifier_list T ) Found 3 3
+63 T ( NT scoped_parameter_type_list T ) Found 1 3
+63 T [ NT option_type_qualifier_list NT option_assignment_expression T ] Found 2 3
+64 T NAME T VARIABLE Found 1 2
+65 T TYPE Found 2 2
+65 T VARIABLE Found 1 2
+70 T ; Found 1 1
+89 T { NT struct_declaration_list T } Found 1 1
+93 T * NT option_type_qualifier_list NT option_pointer Found 1 3
+93 T NAME T VARIABLE Found 2 3
+94 T { NT option_block_item_list T } Found 1 1
+98 T { NT enumerator_list NT option_comma T } Found 1 1
+103 T NAME T TYPE Found 2 9
+103 T char Found 1 9
+103 T int Found 4 9
+103 T struct Found 7 9
+103 T void Found 3 9
+106 T char Found 4 6
+106 T double Found 5 6
+106 T int Found 1 6
+106 T long Found 2 6
+106 T short Found 3 6
+106 T unsigned Found 6 6
+108 T ( NT expression T ) Found 2 12
+108 T ( NT type_name T ) NT cast_expression Found 6 12
+108 T CONSTANT Found 3 12
+108 T NAME T VARIABLE Found 1 12
+108 T { NT initializer_list NT option_comma T } Found 4 12
+113 T ( NT scoped_parameter_type_list T ) Found 1 2
+113 T [ NT option_type_qualifier_list NT option_assignment_expression T ] Found 2 2
+115 T * NT option_type_qualifier_list NT option_pointer Found 1 1
+116 T * NT option_type_qualifier_list NT option_pointer Found 2 2
+116 T const Found 1 2
+126 T NAME T TYPE Found 1 11
+126 T char Found 4 11
+126 T int Found 3 11
+126 T long Found 6 11
+126 T struct Found 5 11
+126 T unsigned Found 2 11
+131 T NAME T VARIABLE Found 1 1
+133 T char Found 1 5
+133 T int Found 3 5
+133 T unsigned Found 2 5
+135 T char Found 2 5
+135 T int Found 1 5
+135 T long Found 3 5
+135 T short Found 4 5
+137 T * NT option_type_qualifier_list NT option_pointer Found 1 1
+147 T ( NT option_argument_expression_list T ) Found 2 6
+147 T ++ Found 5 6
+147 T -> NT general_identifier Found 1 6
+147 T [ NT expression T ] Found 3 6
+149 T ( NT expression T ) Found 2 7
+149 T CONSTANT Found 3 7
+149 T NAME T VARIABLE Found 1 7
+151 T * Found 1 3
+151 T / Found 2 3
+152 T + Found 1 2
+152 T - Found 2 2
+153 T << Found 1 2
+153 T >> Found 2 2
+154 T < Found 1 4
+154 T <= Found 4 4
+154 T > Found 3 4
+154 T >= Found 2 4
+155 T != Found 2 2
+155 T == Found 1 2
+156 T & NT equality_expression Found 1 1
+159 T && NT inclusive_or_expression Found 1 1
+160 T ? NT expression T : NT conditional_expression Found 2 2
+160 T || NT logical_and_expression Found 1 2
+165 T ( NT expression T ) Found 1 26
+165 T ( NT type_name T ) NT cast_expression Found 3 26
+165 T * Found 8 26
+165 T - Found 16 26
+165 T CONSTANT Found 6 26
+165 T NAME T VARIABLE Found 2 26
+165 T char Found 9 26
+165 T int Found 14 26
+165 T struct Found 7 26
+165 T unsigned Found 10 26
+165 T void Found 4 26
+170 T ( NT expression T ) Found 1 4
+170 T ( NT type_name T ) Found 2 4
+179 T VARIABLE Found 1 1
+181 T = Found 1 11
+186 T NAME T TYPE Found 1 10
+186 T char Found 5 10
+186 T const Found 2 10
+186 T double Found 6 10
+186 T int Found 3 10
+186 T long Found 8 10
+186 T struct Found 9 10
+186 T unsigned Found 7 10
+186 T void Found 4 10
+187 T ) Found 1 1
+188 T ( NT expression T ) Found 2 3
+188 T CONSTANT Found 1 3
+191 T ) Found 1 1
+198 T NAME T TYPE Found 1 14
+198 T char Found 4 14
+198 T const Found 10 14
+198 T int Found 5 14
+198 T long Found 8 14
+198 T short Found 9 14
+198 T signed Found 12 14
+198 T struct Found 7 14
+198 T union Found 11 14
+198 T unsigned Found 3 14
+198 T void Found 6 14
+198 T } Found 2 14
+200 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+200 T NAME T VARIABLE Found 1 3
+201 T NAME T TYPE Found 5 31
+201 T NAME T VARIABLE Found 1 31
+201 T break T ; Found 6 31
+201 T char Found 15 31
+201 T int Found 11 31
+201 T return NT option_expression T ; Found 3 31
+201 T struct Found 14 31
+201 T } Found 2 31
+204 T , NT enumerator Found 1 1
+206 T = NT constant_expression Found 1 1
+208 T int Found 2 3
+208 T short Found 3 3
+231 T [ NT option_assignment_expression T ] Found 1 1
+235 T CONSTANT Found 6 13
+235 T NAME T VARIABLE Found 1 13
+235 T STRING_LITERAL Found 3 13
+235 T sizeof T ( NT type_name T ) Found 9 13
+236 T ( NT type_name T ) NT cast_expression Found 6 10
+236 T CONSTANT Found 1 10
+236 T NAME T VARIABLE Found 2 10
+238 T NAME T VARIABLE Found 1 1
+242 T ( NT expression T ) Found 2 7
+242 T ( NT type_name T ) NT cast_expression Found 5 7
+242 T CONSTANT Found 4 7
+242 T sizeof T ( NT type_name T ) Found 1 7
+242 T sizeof NT unary_expression Found 6 7
+246 T CONSTANT Found 1 9
+246 T NAME T VARIABLE Found 3 9
+246 T sizeof T ( NT type_name T ) Found 5 9
+249 T ( NT expression T ) Found 2 3
+249 T CONSTANT Found 1 3
+252 T CONSTANT Found 2 9
+252 T NAME T VARIABLE Found 1 9
+257 T ( NT expression T ) Found 1 8
+257 T CONSTANT Found 2 8
+257 T NAME T VARIABLE Found 3 8
+260 T ( NT type_name T ) NT cast_expression Found 5 5
+263 T ( NT expression T ) Found 1 6
+263 T NAME T VARIABLE Found 2 6
+264 T NAME T VARIABLE Found 2 5
+265 T ( NT expression T ) Found 1 9
+267 T ) Found 1 2
+269 T ) NT cast_expression Found 1 1
+276 T NAME T TYPE Found 2 13
+276 T NAME T VARIABLE Found 3 13
+276 T int Found 5 13
+276 T struct Found 11 13
+276 T unsigned Found 4 13
+276 T void Found 6 13
+279 T ( NT expression T ) Found 3 13
+279 T ( NT type_name T ) NT cast_expression Found 4 13
+279 T CONSTANT Found 2 13
+279 T NAME T VARIABLE Found 1 13
+291 T , Found 2 2
+291 T , NT option_designation NT c_initializer Found 1 2
+292 T STRING_LITERAL Found 4 7
+298 T ( NT save_context NT declarator T ) Found 3 4
+298 T * NT option_type_qualifier_list NT option_pointer Found 1 4
+298 T NAME T VARIABLE Found 2 4
+299 T ) Found 1 1
+300 T , T ... Found 2 2
+300 T , NT parameter_declaration Found 1 2
+305 T ] Found 1 1
+313 T ; Found 1 1
+320 T do NT scoped_statement T while T ( NT expression T ) T ; Found 7 7
+320 T if T ( NT expression T ) NT scoped_statement Found 2 7
+320 T if T ( NT expression T ) NT scoped_statement T else NT scoped_statement Found 3 7
+320 T while T ( NT expression T ) NT scoped_statement Found 5 7
+320 T { NT option_block_item_list T } Found 1 7
+331 T ; Found 1 1
+337 T ; Found 1 1
+338 T - Found 5 9
+338 T CONSTANT Found 3 9
+338 T NAME T VARIABLE Found 2 9
+339 T } Found 1 1
+340 T NAME T VARIABLE Found 1 1
+341 T ( NT expression T ) Found 2 5
+346 T CONSTANT Found 1 1
+351 T ) Found 1 1
+352 T , NT assignment_expression Found 1 1
+353 T ] Found 1 1
+357 T * Found 1 2
+366 T : NT conditional_expression Found 1 2
+369 T ( NT expression T ) Found 2 12
+369 T CONSTANT Found 1 12
+369 T NAME T VARIABLE Found 3 12
+369 T sizeof T ( NT type_name T ) Found 5 12
+373 T ) Found 1 1
+377 T } Found 1 1
+386 T NAME T VARIABLE Found 1 1
+391 T ... Found 5 11
+391 T NAME T TYPE Found 1 11
+391 T char Found 4 11
+391 T const Found 2 11
+391 T double Found 9 11
+391 T int Found 3 11
+391 T long Found 8 11
+391 T struct Found 6 11
+391 T void Found 7 11
+404 T ( NT expression T ) NT scoped_statement Found 1 2
+404 T ( NT expression T ) NT scoped_statement T else NT scoped_statement Found 2 2
+406 T ( NT expression T ) NT scoped_statement Found 1 1
+415 T ; Found 1 1
+422 T ] Found 1 1
+429 T CONSTANT Found 2 13
+429 T NAME T VARIABLE Found 1 13
+429 T sizeof NT unary_expression Found 7 13
+431 T ( NT expression T ) Found 1 7
+442 T STRING_LITERAL Found 2 8
+445 T * NT option_type_qualifier_list NT option_pointer Found 1 1
+455 T ! Found 3 8
+455 T ( NT expression T ) Found 2 8
+455 T NAME T VARIABLE Found 1 8
+457 T ( NT expression T ) Found 2 5
+457 T NAME T VARIABLE Found 1 5
+459 T while T ( NT expression T ) T ; Found 1 1
+483 T ) NT scoped_statement Found 1 2
+483 T ) NT scoped_statement T else NT scoped_statement Found 2 2
+485 T ) NT scoped_statement Found 1 1
+487 T ( NT expression T ) T ; Found 1 1
+503 T NAME T VARIABLE Found 3 6
+512 T else NT scoped_statement Found 1 1
+515 T ) T ; Found 1 1
+519 T ; Found 1 1
+0 T typedef NT list_ge1_type_specifier_nonunique_declaration_specifier Found 1 6
+5 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+5 T NAME T VARIABLE Found 1 3
+6 T ( NT save_context NT declarator T ) Found 3 3
+6 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+6 T NAME T VARIABLE Found 1 3
+8 T NAME T TYPE Found 2 13
+8 T char Found 4 13
+8 T const Found 9 13
+8 T double Found 5 13
+8 T float Found 10 13
+8 T int Found 1 13
+8 T long Found 6 13
+8 T unsigned Found 7 13
+8 T void Found 3 13
+17 T double Found 5 7
+17 T int Found 1 7
+17 T long Found 3 7
+17 T short Found 4 7
+22 T NAME T VARIABLE Found 1 1
+23 T $ Found 13 19
+23 T char Found 10 19
+23 T double Found 12 19
+23 T enum NT option_general_identifier T { NT enumerator_list NT option_comma T } Found 8 19
+23 T extern Found 1 19
+23 T int Found 9 19
+23 T static Found 5 19
+23 T struct Found 7 19
+23 T typedef NT list_eq1_type_specifier_unique_declaration_specifier Found 2 19
+23 T typedef NT list_ge1_type_specifier_nonunique_declaration_specifier Found 3 19
+23 T union Found 14 19
+23 T void Found 6 19
+26 T TYPE Found 1 1
+45 T NAME T VARIABLE Found 1 1
+54 T NAME T TYPE Found 1 13
+54 T char Found 10 13
+54 T double Found 12 13
+54 T float Found 13 13
+54 T int Found 5 13
+54 T long Found 4 13
+54 T signed Found 7 13
+54 T struct Found 3 13
+54 T union Found 6 13
+54 T unsigned Found 2 13
+54 T void Found 8 13
+54 T volatile Found 11 13
+59 T = NT c_initializer Found 1 1
+60 T ; Found 1 1
+61 T , NT init_declarator_declarator_varname Found 1 1
+63 T ( NT scoped_parameter_type_list T ) Found 1 3
+63 T [ NT option_type_qualifier_list NT option_assignment_expression T ] Found 2 3
+64 T NAME T VARIABLE Found 1 2
+65 T TYPE Found 2 2
+65 T VARIABLE Found 1 2
+70 T ; Found 1 1
+89 T { NT struct_declaration_list T } Found 1 1
+93 T NAME T VARIABLE Found 2 3
+94 T { NT option_block_item_list T } Found 1 1
+98 T { NT enumerator_list NT option_comma T } Found 1 1
+103 T NAME T TYPE Found 2 9
+103 T char Found 1 9
+103 T int Found 4 9
+103 T struct Found 7 9
+103 T void Found 3 9
+106 T char Found 4 6
+106 T double Found 5 6
+106 T int Found 1 6
+106 T long Found 2 6
+106 T short Found 3 6
+106 T unsigned Found 6 6
+108 T CONSTANT Found 3 12
+108 T NAME T VARIABLE Found 1 12
+110 T NAME T VARIABLE Found 1 2
+113 T ( NT scoped_parameter_type_list T ) Found 1 2
+113 T [ NT option_type_qualifier_list NT option_assignment_expression T ] Found 2 2
+115 T * NT option_type_qualifier_list NT option_pointer Found 1 1
+116 T * NT option_type_qualifier_list NT option_pointer Found 2 2
+116 T const Found 1 2
+126 T NAME T TYPE Found 1 11
+126 T char Found 4 11
+126 T int Found 3 11
+126 T long Found 6 11
+126 T struct Found 5 11
+126 T unsigned Found 2 11
+131 T NAME T VARIABLE Found 1 1
+133 T char Found 1 5
+133 T int Found 3 5
+133 T unsigned Found 2 5
+135 T char Found 2 5
+135 T int Found 1 5
+135 T long Found 3 5
+135 T short Found 4 5
+137 T * NT option_type_qualifier_list NT option_pointer Found 1 1
+147 T ( NT option_argument_expression_list T ) Found 2 6
+147 T ++ Found 5 6
+147 T -- Found 6 6
+147 T [ NT expression T ] Found 3 6
+149 T ( NT expression T ) Found 2 7
+149 T CONSTANT Found 3 7
+149 T NAME T VARIABLE Found 1 7
+151 T % Found 3 3
+151 T * Found 1 3
+151 T / Found 2 3
+152 T + Found 1 2
+152 T - Found 2 2
+153 T << Found 1 2
+153 T >> Found 2 2
+154 T < Found 1 4
+154 T > Found 3 4
+154 T >= Found 2 4
+155 T != Found 2 2
+155 T == Found 1 2
+156 T & NT equality_expression Found 1 1
+159 T && NT inclusive_or_expression Found 1 1
+160 T ? NT expression T : NT conditional_expression Found 2 2
+160 T || NT logical_and_expression Found 1 2
+165 T ( NT expression T ) Found 1 26
+165 T * Found 8 26
+165 T - Found 16 26
+165 T CONSTANT Found 6 26
+165 T NAME T VARIABLE Found 2 26
+165 T int Found 14 26
+165 T unsigned Found 10 26
+168 T NAME T VARIABLE Found 2 2
+169 T NAME T VARIABLE Found 1 1
+170 T ( NT type_name T ) Found 2 4
+179 T VARIABLE Found 1 1
+181 T = Found 1 11
+186 T NAME T TYPE Found 1 10
+186 T char Found 5 10
+186 T const Found 2 10
+186 T double Found 6 10
+186 T float NotFound
+186 T int Found 3 10
+186 T long Found 8 10
+186 T struct Found 9 10
+186 T unsigned Found 7 10
+186 T void Found 4 10
+187 T ) Found 1 1
+188 T ( NT expression T ) Found 2 3
+188 T CONSTANT Found 1 3
+191 T ) Found 1 1
+198 T NAME T TYPE Found 1 14
+198 T char Found 4 14
+198 T const Found 10 14
+198 T int Found 5 14
+198 T long Found 8 14
+198 T short Found 9 14
+198 T signed Found 12 14
+198 T struct Found 7 14
+198 T union Found 11 14
+198 T unsigned Found 3 14
+198 T void Found 6 14
+198 T } Found 2 14
+200 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+200 T NAME T VARIABLE Found 1 3
+201 T NAME T VARIABLE Found 1 31
+201 T break T ; Found 6 31
+201 T case NT constant_expression T : NT statement Found 4 31
+201 T char Found 15 31
+201 T default T : NT statement Found 13 31
+201 T double Found 17 31
+201 T int Found 11 31
+201 T return NT option_expression T ; Found 3 31
+201 T } Found 2 31
+204 T , NT enumerator Found 1 1
+206 T = NT constant_expression Found 1 1
+208 T int Found 2 3
+208 T short Found 3 3
+231 T [ NT option_assignment_expression T ] Found 1 1
+235 T ( NT type_name T ) NT cast_expression Found 4 13
+235 T NAME T VARIABLE Found 1 13
+235 T STRING_LITERAL Found 3 13
+236 T ( NT type_name T ) NT cast_expression Found 6 10
+236 T ++ NT unary_expression Found 10 10
+236 T -- NT unary_expression Found 9 10
+236 T CONSTANT Found 1 10
+236 T NAME T VARIABLE Found 2 10
+242 T ( NT expression T ) Found 2 7
+242 T ( NT type_name T ) NT cast_expression Found 5 7
+242 T NAME T VARIABLE Found 3 7
+242 T sizeof T ( NT type_name T ) Found 1 7
+246 T CONSTANT Found 1 9
+246 T NAME T VARIABLE Found 3 9
+246 T sizeof T ( NT type_name T ) Found 5 9
+249 T ( NT expression T ) Found 2 3
+249 T CONSTANT Found 1 3
+252 T CONSTANT Found 2 9
+257 T ( NT expression T ) Found 1 8
+257 T CONSTANT Found 2 8
+260 T ( NT type_name T ) NT cast_expression Found 5 5
+263 T NAME T VARIABLE Found 2 6
+264 T NAME T VARIABLE Found 2 5
+265 T ( NT expression T ) Found 1 9
+265 T NAME T VARIABLE Found 3 9
+267 T ) Found 1 2
+269 T ) NT cast_expression Found 1 1
+276 T NAME T TYPE Found 2 13
+276 T int Found 5 13
+276 T unsigned Found 4 13
+276 T void Found 6 13
+279 T CONSTANT Found 2 13
+279 T NAME T VARIABLE Found 1 13
+298 T ( NT save_context NT declarator T ) Found 3 4
+298 T * NT option_type_qualifier_list NT option_pointer Found 1 4
+298 T NAME T VARIABLE Found 2 4
+300 T , T ... Found 2 2
+300 T , NT parameter_declaration Found 1 2
+305 T ] Found 1 1
+313 T ; Found 1 1
+320 T do NT scoped_statement T while T ( NT expression T ) T ; Found 7 7
+320 T if T ( NT expression T ) NT scoped_statement Found 2 7
+320 T if T ( NT expression T ) NT scoped_statement T else NT scoped_statement Found 3 7
+320 T switch T ( NT expression T ) NT scoped_statement Found 6 7
+320 T while T ( NT expression T ) NT scoped_statement Found 5 7
+320 T { NT option_block_item_list T } Found 1 7
+331 T ; Found 1 1
+332 T : NT statement Found 1 1
+334 T CONSTANT Found 1 4
+337 T ; Found 1 1
+338 T ( NT expression T ) Found 1 9
+338 T CONSTANT Found 3 9
+338 T NAME T VARIABLE Found 2 9
+339 T } Found 1 1
+340 T NAME T VARIABLE Found 1 1
+341 T ( NT expression T ) Found 2 5
+341 T CONSTANT Found 1 5
+346 T CONSTANT Found 1 1
+351 T ) Found 1 1
+352 T , NT assignment_expression Found 1 1
+353 T ] Found 1 1
+357 T * Found 1 2
+366 T : NT conditional_expression Found 1 2
+369 T ( NT expression T ) Found 2 12
+369 T NAME T VARIABLE Found 3 12
+369 T sizeof T ( NT type_name T ) Found 5 12
+373 T ) Found 1 1
+386 T NAME T VARIABLE Found 1 1
+391 T ... Found 5 11
+391 T NAME T TYPE Found 1 11
+391 T char Found 4 11
+391 T const Found 2 11
+391 T double Found 9 11
+391 T float NotFound
+391 T int Found 3 11
+391 T long Found 8 11
+391 T struct Found 6 11
+391 T void Found 7 11
+404 T ( NT expression T ) NT scoped_statement Found 1 2
+404 T ( NT expression T ) NT scoped_statement T else NT scoped_statement Found 2 2
+405 T ( NT expression T ) NT scoped_statement Found 1 1
+406 T ( NT expression T ) NT scoped_statement Found 1 1
+410 T NAME T VARIABLE Found 1 5
+411 T : NT statement Found 1 1
+415 T ; Found 1 1
+422 T ] Found 1 1
+429 T CONSTANT Found 2 13
+429 T NAME T VARIABLE Found 1 13
+431 T ( NT expression T ) Found 1 7
+431 T NAME T VARIABLE Found 3 7
+445 T * NT option_type_qualifier_list NT option_pointer Found 1 1
+455 T ! Found 3 8
+455 T ( NT expression T ) Found 2 8
+455 T NAME T VARIABLE Found 1 8
+456 T NAME T VARIABLE Found 1 3
+457 T ( NT expression T ) Found 2 5
+459 T while T ( NT expression T ) T ; Found 1 1
+462 T NAME T VARIABLE Found 2 9
+483 T ) NT scoped_statement Found 1 2
+483 T ) NT scoped_statement T else NT scoped_statement Found 2 2
+484 T ) NT scoped_statement Found 1 1
+485 T ) NT scoped_statement Found 1 1
+487 T ( NT expression T ) T ; Found 1 1
+503 T NAME T VARIABLE Found 3 6
+512 T else NT scoped_statement Found 1 1
+515 T ) T ; Found 1 1
+519 T ; Found 1 1
+0 T typedef NT list_ge1_type_specifier_nonunique_declaration_specifier Found 1 6
+5 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+5 T NAME T VARIABLE Found 1 3
+6 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+6 T NAME T VARIABLE Found 1 3
+8 T NAME T TYPE Found 2 13
+8 T char Found 4 13
+8 T int Found 1 13
+8 T long Found 6 13
+8 T void Found 3 13
+17 T int Found 1 7
+22 T NAME T VARIABLE Found 1 1
+23 T $ Found 13 19
+23 T extern Found 1 19
+23 T int Found 9 19
+23 T struct Found 7 19
+23 T typedef NT list_eq1_type_specifier_unique_declaration_specifier Found 2 19
+23 T typedef NT list_ge1_type_specifier_nonunique_declaration_specifier Found 3 19
+26 T TYPE Found 1 1
+54 T NAME T TYPE Found 1 13
+54 T char Found 10 13
+54 T int Found 5 13
+54 T long Found 4 13
+54 T signed Found 7 13
+54 T struct Found 3 13
+54 T unsigned Found 2 13
+54 T void Found 8 13
+60 T ; Found 1 1
+63 T ( NT scoped_parameter_type_list T ) Found 1 3
+63 T [ NT option_type_qualifier_list NT option_assignment_expression T ] Found 2 3
+64 T NAME T VARIABLE Found 1 2
+65 T TYPE Found 2 2
+65 T VARIABLE Found 1 2
+70 T ; Found 1 1
+89 T { NT struct_declaration_list T } Found 1 1
+94 T { NT option_block_item_list T } Found 1 1
+103 T NAME T TYPE Found 2 9
+103 T char Found 1 9
+103 T void Found 3 9
+106 T char Found 4 6
+106 T int Found 1 6
+106 T long Found 2 6
+106 T short Found 3 6
+106 T unsigned Found 6 6
+113 T ( NT scoped_parameter_type_list T ) Found 1 2
+116 T * NT option_type_qualifier_list NT option_pointer Found 2 2
+126 T NAME T TYPE Found 1 11
+126 T int Found 3 11
+126 T unsigned Found 2 11
+135 T char Found 2 5
+135 T int Found 1 5
+135 T short Found 4 5
+137 T * NT option_type_qualifier_list NT option_pointer Found 1 1
+147 T ( NT option_argument_expression_list T ) Found 2 6
+149 T CONSTANT Found 3 7
+151 T * Found 1 3
+152 T - Found 2 2
+155 T != Found 2 2
+165 T - Found 16 26
+170 T ( NT type_name T ) Found 2 4
+179 T VARIABLE Found 1 1
+186 T NAME T TYPE Found 1 10
+186 T char Found 5 10
+186 T const Found 2 10
+186 T int Found 3 10
+186 T void Found 4 10
+187 T ) Found 1 1
+188 T CONSTANT Found 1 3
+198 T NAME T TYPE Found 1 14
+198 T char Found 4 14
+198 T int Found 5 14
+198 T signed Found 12 14
+198 T struct Found 7 14
+198 T union Found 11 14
+198 T unsigned Found 3 14
+198 T void Found 6 14
+198 T } Found 2 14
+200 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+200 T NAME T VARIABLE Found 1 3
+201 T NAME T VARIABLE Found 1 31
+201 T return NT option_expression T ; Found 3 31
+201 T } Found 2 31
+231 T [ NT option_assignment_expression T ] Found 1 1
+235 T STRING_LITERAL Found 3 13
+242 T sizeof T ( NT type_name T ) Found 1 7
+246 T CONSTANT Found 1 9
+246 T sizeof T ( NT type_name T ) Found 5 9
+257 T ( NT expression T ) Found 1 8
+267 T ) Found 1 2
+276 T NAME T TYPE Found 2 13
+276 T int Found 5 13
+276 T void Found 6 13
+298 T * NT option_type_qualifier_list NT option_pointer Found 1 4
+298 T NAME T VARIABLE Found 2 4
+300 T , T ... Found 2 2
+300 T , NT parameter_declaration Found 1 2
+305 T ] Found 1 1
+313 T ; Found 1 1
+331 T ; Found 1 1
+338 T CONSTANT Found 3 9
+346 T CONSTANT Found 1 1
+351 T ) Found 1 1
+352 T , NT assignment_expression Found 1 1
+357 T * Found 1 2
+373 T ) Found 1 1
+386 T NAME T VARIABLE Found 1 1
+391 T ... Found 5 11
+391 T NAME T TYPE Found 1 11
+391 T char Found 4 11
+391 T const Found 2 11
+391 T int Found 3 11
+391 T long Found 8 11
+415 T ; Found 1 1
+422 T ] Found 1 1
+429 T NAME T VARIABLE Found 1 13
+0 T typedef NT list_ge1_type_specifier_nonunique_declaration_specifier Found 1 6
+5 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+5 T NAME T VARIABLE Found 1 3
+6 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+6 T NAME T VARIABLE Found 1 3
+8 T NAME T TYPE Found 2 13
+8 T char Found 4 13
+8 T int Found 1 13
+8 T long Found 6 13
+8 T void Found 3 13
+17 T int Found 1 7
+22 T NAME T VARIABLE Found 1 1
+23 T $ Found 13 19
+23 T extern Found 1 19
+23 T int Found 9 19
+23 T struct Found 7 19
+23 T typedef NT list_eq1_type_specifier_unique_declaration_specifier Found 2 19
+23 T typedef NT list_ge1_type_specifier_nonunique_declaration_specifier Found 3 19
+26 T TYPE Found 1 1
+54 T NAME T TYPE Found 1 13
+54 T char Found 10 13
+54 T int Found 5 13
+54 T long Found 4 13
+54 T signed Found 7 13
+54 T struct Found 3 13
+54 T unsigned Found 2 13
+54 T void Found 8 13
+60 T ; Found 1 1
+63 T ( NT scoped_parameter_type_list T ) Found 1 3
+63 T [ NT option_type_qualifier_list NT option_assignment_expression T ] Found 2 3
+64 T NAME T VARIABLE Found 1 2
+65 T TYPE Found 2 2
+65 T VARIABLE Found 1 2
+70 T ; Found 1 1
+89 T { NT struct_declaration_list T } Found 1 1
+93 T NAME T VARIABLE Found 2 3
+94 T { NT option_block_item_list T } Found 1 1
+103 T NAME T TYPE Found 2 9
+103 T char Found 1 9
+103 T void Found 3 9
+106 T char Found 4 6
+106 T int Found 1 6
+106 T long Found 2 6
+106 T short Found 3 6
+106 T unsigned Found 6 6
+113 T ( NT scoped_parameter_type_list T ) Found 1 2
+116 T * NT option_type_qualifier_list NT option_pointer Found 2 2
+126 T NAME T TYPE Found 1 11
+126 T int Found 3 11
+126 T unsigned Found 2 11
+135 T char Found 2 5
+135 T int Found 1 5
+135 T short Found 4 5
+137 T * NT option_type_qualifier_list NT option_pointer Found 1 1
+147 T ( NT option_argument_expression_list T ) Found 2 6
+149 T CONSTANT Found 3 7
+151 T * Found 1 3
+152 T - Found 2 2
+155 T != Found 2 2
+155 T == Found 1 2
+160 T || NT logical_and_expression Found 1 2
+165 T - Found 16 26
+165 T NAME T VARIABLE Found 2 26
+168 T NAME T VARIABLE Found 2 2
+170 T ( NT type_name T ) Found 2 4
+179 T VARIABLE Found 1 1
+181 T = Found 1 11
+186 T NAME T TYPE Found 1 10
+186 T char Found 5 10
+186 T const Found 2 10
+186 T int Found 3 10
+186 T void Found 4 10
+187 T ) Found 1 1
+188 T CONSTANT Found 1 3
+198 T NAME T TYPE Found 1 14
+198 T char Found 4 14
+198 T int Found 5 14
+198 T signed Found 12 14
+198 T struct Found 7 14
+198 T union Found 11 14
+198 T unsigned Found 3 14
+198 T void Found 6 14
+198 T } Found 2 14
+200 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+200 T NAME T VARIABLE Found 1 3
+201 T ++ NT unary_expression Found 26 31
+201 T NAME T VARIABLE Found 1 31
+201 T char Found 15 31
+201 T int Found 11 31
+201 T return NT option_expression T ; Found 3 31
+201 T } Found 2 31
+231 T [ NT option_assignment_expression T ] Found 1 1
+235 T STRING_LITERAL Found 3 13
+242 T sizeof T ( NT type_name T ) Found 1 7
+246 T CONSTANT Found 1 9
+246 T sizeof T ( NT type_name T ) Found 5 9
+257 T ( NT expression T ) Found 1 8
+257 T CONSTANT Found 2 8
+264 T NAME T VARIABLE Found 2 5
+267 T ) Found 1 2
+276 T NAME T TYPE Found 2 13
+276 T int Found 5 13
+276 T void Found 6 13
+279 T CONSTANT Found 2 13
+279 T NAME T VARIABLE Found 1 13
+298 T * NT option_type_qualifier_list NT option_pointer Found 1 4
+298 T NAME T VARIABLE Found 2 4
+300 T , T ... Found 2 2
+300 T , NT parameter_declaration Found 1 2
+305 T ] Found 1 1
+313 T ; Found 1 1
+320 T if T ( NT expression T ) NT scoped_statement Found 2 7
+320 T if T ( NT expression T ) NT scoped_statement T else NT scoped_statement Found 3 7
+320 T while T ( NT expression T ) NT scoped_statement Found 5 7
+320 T { NT option_block_item_list T } Found 1 7
+331 T ; Found 1 1
+338 T CONSTANT Found 3 9
+346 T CONSTANT Found 1 1
+351 T ) Found 1 1
+352 T , NT assignment_expression Found 1 1
+357 T * Found 1 2
+373 T ) Found 1 1
+386 T NAME T VARIABLE Found 1 1
+391 T ... Found 5 11
+391 T NAME T TYPE Found 1 11
+391 T char Found 4 11
+391 T const Found 2 11
+391 T int Found 3 11
+391 T long Found 8 11
+404 T ( NT expression T ) NT scoped_statement Found 1 2
+404 T ( NT expression T ) NT scoped_statement T else NT scoped_statement Found 2 2
+406 T ( NT expression T ) NT scoped_statement Found 1 1
+415 T ; Found 1 1
+422 T ] Found 1 1
+429 T NAME T VARIABLE Found 1 13
+455 T NAME T VARIABLE Found 1 8
+457 T ( NT expression T ) Found 2 5
+483 T ) NT scoped_statement Found 1 2
+483 T ) NT scoped_statement T else NT scoped_statement Found 2 2
+485 T ) NT scoped_statement Found 1 1
+512 T else NT scoped_statement Found 1 1
+0 T typedef NT list_ge1_type_specifier_nonunique_declaration_specifier Found 1 6
+5 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+5 T NAME T VARIABLE Found 1 3
+6 T ( NT save_context NT declarator T ) Found 3 3
+6 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+6 T NAME T VARIABLE Found 1 3
+8 T NAME T TYPE Found 2 13
+8 T char Found 4 13
+8 T const Found 9 13
+8 T double Found 5 13
+8 T float Found 10 13
+8 T int Found 1 13
+8 T long Found 6 13
+8 T unsigned Found 7 13
+8 T void Found 3 13
+17 T double Found 5 7
+17 T int Found 1 7
+17 T long Found 3 7
+17 T short Found 4 7
+22 T NAME T VARIABLE Found 1 1
+23 T $ Found 13 19
+23 T NAME T TYPE Found 4 19
+23 T char Found 10 19
+23 T enum NT option_general_identifier T { NT enumerator_list NT option_comma T } Found 8 19
+23 T extern Found 1 19
+23 T int Found 9 19
+23 T static Found 5 19
+23 T struct Found 7 19
+23 T typedef NT list_eq1_type_specifier_unique_declaration_specifier Found 2 19
+23 T typedef NT list_ge1_type_specifier_nonunique_declaration_specifier Found 3 19
+23 T union Found 14 19
+23 T void Found 6 19
+26 T TYPE Found 1 1
+54 T NAME T TYPE Found 1 13
+54 T char Found 10 13
+54 T int Found 5 13
+54 T long Found 4 13
+54 T signed Found 7 13
+54 T struct Found 3 13
+54 T union Found 6 13
+54 T unsigned Found 2 13
+54 T void Found 8 13
+54 T volatile Found 11 13
+59 T = NT c_initializer Found 1 1
+60 T ; Found 1 1
+63 T ( NT save_context NT option_identifier_list T ) Found 3 3
+63 T ( NT scoped_parameter_type_list T ) Found 1 3
+63 T [ NT option_type_qualifier_list NT option_assignment_expression T ] Found 2 3
+64 T NAME T VARIABLE Found 1 2
+65 T TYPE Found 2 2
+65 T VARIABLE Found 1 2
+70 T ; Found 1 1
+89 T { NT struct_declaration_list T } Found 1 1
+93 T * NT option_type_qualifier_list NT option_pointer Found 1 3
+93 T NAME T VARIABLE Found 2 3
+94 T { NT option_block_item_list T } Found 1 1
+98 T { NT enumerator_list NT option_comma T } Found 1 1
+103 T NAME T TYPE Found 2 9
+103 T char Found 1 9
+103 T int Found 4 9
+103 T struct Found 7 9
+103 T void Found 3 9
+106 T char Found 4 6
+106 T double Found 5 6
+106 T int Found 1 6
+106 T long Found 2 6
+106 T short Found 3 6
+106 T unsigned Found 6 6
+108 T ( NT expression T ) Found 2 12
+108 T ( NT type_name T ) NT cast_expression Found 6 12
+108 T CONSTANT Found 3 12
+108 T NAME T VARIABLE Found 1 12
+108 T { NT initializer_list NT option_comma T } Found 4 12
+113 T ( NT scoped_parameter_type_list T ) Found 1 2
+113 T [ NT option_type_qualifier_list NT option_assignment_expression T ] Found 2 2
+115 T * NT option_type_qualifier_list NT option_pointer Found 1 1
+116 T * NT option_type_qualifier_list NT option_pointer Found 2 2
+116 T const Found 1 2
+126 T NAME T TYPE Found 1 11
+126 T char Found 4 11
+126 T int Found 3 11
+126 T long Found 6 11
+126 T struct Found 5 11
+126 T unsigned Found 2 11
+131 T NAME T VARIABLE Found 1 1
+133 T char Found 1 5
+133 T int Found 3 5
+133 T unsigned Found 2 5
+135 T char Found 2 5
+135 T int Found 1 5
+135 T long Found 3 5
+135 T short Found 4 5
+137 T ( NT save_context NT abstract_declarator T ) NotFound
+137 T * NT option_type_qualifier_list NT option_pointer Found 1 1
+147 T ( NT option_argument_expression_list T ) Found 2 6
+147 T ++ Found 5 6
+147 T -> NT general_identifier Found 1 6
+147 T [ NT expression T ] Found 3 6
+149 T ( NT expression T ) Found 2 7
+149 T CONSTANT Found 3 7
+149 T NAME T VARIABLE Found 1 7
+151 T * Found 1 3
+151 T / Found 2 3
+152 T + Found 1 2
+152 T - Found 2 2
+153 T << Found 1 2
+153 T >> Found 2 2
+154 T < Found 1 4
+154 T <= Found 4 4
+154 T > Found 3 4
+154 T >= Found 2 4
+155 T != Found 2 2
+155 T == Found 1 2
+156 T & NT equality_expression Found 1 1
+159 T && NT inclusive_or_expression Found 1 1
+160 T ? NT expression T : NT conditional_expression Found 2 2
+160 T || NT logical_and_expression Found 1 2
+165 T ( NT expression T ) Found 1 26
+165 T ( NT type_name T ) NT cast_expression Found 3 26
+165 T * Found 8 26
+165 T - Found 16 26
+165 T CONSTANT Found 6 26
+165 T NAME T VARIABLE Found 2 26
+165 T char Found 9 26
+165 T int Found 14 26
+165 T long Found 20 26
+165 T struct Found 7 26
+165 T unsigned Found 10 26
+165 T void Found 4 26
+168 T NAME T VARIABLE Found 2 2
+170 T ( NT type_name T ) Found 2 4
+179 T VARIABLE Found 1 1
+181 T = Found 1 11
+186 T NAME T TYPE Found 1 10
+186 T char Found 5 10
+186 T const Found 2 10
+186 T double Found 6 10
+186 T int Found 3 10
+186 T long Found 8 10
+186 T struct Found 9 10
+186 T unsigned Found 7 10
+186 T void Found 4 10
+187 T ) Found 1 1
+188 T ( NT expression T ) Found 2 3
+188 T CONSTANT Found 1 3
+191 T ) Found 1 1
+198 T NAME T TYPE Found 1 14
+198 T char Found 4 14
+198 T const Found 10 14
+198 T int Found 5 14
+198 T long Found 8 14
+198 T short Found 9 14
+198 T signed Found 12 14
+198 T struct Found 7 14
+198 T union Found 11 14
+198 T unsigned Found 3 14
+198 T void Found 6 14
+198 T } Found 2 14
+200 T * NT option_type_qualifier_list NT option_pointer Found 2 3
+200 T NAME T VARIABLE Found 1 3
+201 T NAME T TYPE Found 5 31
+201 T NAME T VARIABLE Found 1 31
+201 T char Found 15 31
+201 T int Found 11 31
+201 T return NT option_expression T ; Found 3 31
+201 T struct Found 14 31
+201 T void Found 25 31
+201 T } Found 2 31
+204 T , NT enumerator Found 1 1
+206 T = NT constant_expression Found 1 1
+208 T int Found 2 3
+208 T short Found 3 3
+230 T ( NT option_scoped_parameter_type_list T ) Found 1 1
+231 T [ NT option_assignment_expression T ] Found 1 1
+235 T ( NT type_name T ) NT cast_expression Found 4 13
+235 T NAME T VARIABLE Found 1 13
+235 T STRING_LITERAL Found 3 13
+235 T sizeof T ( NT type_name T ) Found 9 13
+236 T ( NT type_name T ) NT cast_expression Found 6 10
+236 T CONSTANT Found 1 10
+236 T NAME T VARIABLE Found 2 10
+238 T NAME T VARIABLE Found 1 1
+242 T ( NT expression T ) Found 2 7
+242 T ( NT type_name T ) NT cast_expression Found 5 7
+242 T CONSTANT Found 4 7
+242 T sizeof T ( NT type_name T ) Found 1 7
+246 T CONSTANT Found 1 9
+246 T NAME T VARIABLE Found 3 9
+246 T sizeof T ( NT type_name T ) Found 5 9
+249 T ( NT expression T ) Found 2 3
+249 T CONSTANT Found 1 3
+252 T ( NT type_name T ) NT cast_expression Found 4 9
+252 T CONSTANT Found 2 9
+252 T NAME T VARIABLE Found 1 9
+257 T ( NT expression T ) Found 1 8
+257 T CONSTANT Found 2 8
+260 T ( NT type_name T ) NT cast_expression Found 5 5
+263 T NAME T VARIABLE Found 2 6
+264 T NAME T VARIABLE Found 2 5
+265 T ( NT expression T ) Found 1 9
+267 T ) Found 1 2
+269 T ) NT cast_expression Found 1 1
+276 T NAME T TYPE Found 2 13
+276 T int Found 5 13
+276 T struct Found 11 13
+276 T unsigned Found 4 13
+276 T void Found 6 13
+279 T ( NT expression T ) Found 3 13
+279 T ( NT type_name T ) NT cast_expression Found 4 13
+279 T CONSTANT Found 2 13
+279 T NAME T VARIABLE Found 1 13
+292 T ( NT expression T ) Found 3 7
+298 T ( NT save_context NT declarator T ) Found 3 4
+298 T * NT option_type_qualifier_list NT option_pointer Found 1 4
+298 T NAME T VARIABLE Found 2 4
+299 T ) Found 1 1
+300 T , T ... Found 2 2
+300 T , NT parameter_declaration Found 1 2
+305 T ] Found 1 1
+313 T ; Found 1 1
+320 T for T ( NT declaration NT option_expression T ; NT option_expression T ) NT scoped_statement NotFound
+320 T if T ( NT expression T ) NT scoped_statement Found 2 7
+320 T if T ( NT expression T ) NT scoped_statement T else NT scoped_statement Found 3 7
+320 T while T ( NT expression T ) NT scoped_statement Found 5 7
+320 T { NT option_block_item_list T } Found 1 7
+331 T ; Found 1 1
+338 T - Found 5 9
+338 T CONSTANT Found 3 9
+338 T NAME T VARIABLE Found 2 9
+339 T } Found 1 1
+340 T NAME T VARIABLE Found 1 1
+341 T ( NT expression T ) Found 2 5
+346 T CONSTANT Found 1 1
+347 T * NT option_type_qualifier_list NT option_pointer NotFound
+351 T ) Found 1 1
+352 T , NT assignment_expression Found 1 1
+353 T ] Found 1 1
+357 T * Found 1 2
+366 T : NT conditional_expression Found 1 2
+369 T ( NT expression T ) Found 2 12
+369 T CONSTANT Found 1 12
+369 T NAME T VARIABLE Found 3 12
+369 T sizeof T ( NT type_name T ) Found 5 12
+373 T ) Found 1 1
+377 T } Found 1 1
+386 T NAME T VARIABLE Found 1 1
+391 T ... Found 5 11
+391 T NAME T TYPE Found 1 11
+391 T char Found 4 11
+391 T const Found 2 11
+391 T double Found 9 11
+391 T int Found 3 11
+391 T long Found 8 11
+391 T struct Found 6 11
+391 T void Found 7 11
+404 T ( NT expression T ) NT scoped_statement Found 1 2
+404 T ( NT expression T ) NT scoped_statement T else NT scoped_statement Found 2 2
+406 T ( NT expression T ) NT scoped_statement Found 1 1
+408 T ( NT declaration NT option_expression T ; NT option_expression T ) NT scoped_statement NotFound
+415 T ; Found 1 1
+419 T void NotFound
+420 T ) Found 1 1
+422 T ] Found 1 1
+426 T ) Found 1 1
+429 T ( NT expression T ) Found 4 13
+429 T ( NT type_name T ) NT cast_expression Found 5 13
+429 T ++ NT unary_expression Found 13 13
+429 T CONSTANT Found 2 13
+429 T NAME T VARIABLE Found 1 13
+431 T ( NT expression T ) Found 1 7
+445 T * NT option_type_qualifier_list NT option_pointer Found 1 1
+455 T ! Found 3 8
+455 T ( NT expression T ) Found 2 8
+455 T ( NT type_name T ) NT cast_expression Found 6 8
+455 T NAME T VARIABLE Found 1 8
+457 T ( NT expression T ) Found 2 5
+457 T NAME T VARIABLE Found 1 5
+460 T NAME T TYPE NotFound
+483 T ) NT scoped_statement Found 1 2
+483 T ) NT scoped_statement T else NT scoped_statement Found 2 2
+485 T ) NT scoped_statement Found 1 1
+488 T NAME T VARIABLE NotFound
+504 T ; NT option_expression T ) NT scoped_statement NotFound
+512 T else NT scoped_statement Found 1 1
+516 T ++ NT unary_expression NotFound
+520 T ) NT scoped_statement NotFound

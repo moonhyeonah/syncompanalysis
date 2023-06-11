@@ -1,0 +1,3 @@
+state syntax found candidates_count 50%
+0 "T If NT Expr T Then NT CRStmtCRs NT MoreThanZeroElseIf" 11 11 6.0
+11 "T Goto T ID" 11 11 6.0
